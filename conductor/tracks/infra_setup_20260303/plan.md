@@ -28,12 +28,12 @@
     - [x] Define triggers for push and pull requests on the main branch
     - [x] Implement steps for: Setup .NET SDK, Restore dependencies
 
-- [~] Task: Add Lint, Build, and Test steps to Backend CI
-    - [ ] Add step for `dotnet format --verify-no-changes` to enforce code style
-    - [ ] Add step for `dotnet build --no-restore`
-    - [ ] Add step for `dotnet test --no-build` to verify functionality
+- [x] Task: Add Lint, Build, and Test steps to Backend CI [b12027c]
+    - [x] Add step for `dotnet format --verify-no-changes` to enforce code style
+    - [x] Add step for `dotnet build --no-restore`
+    - [x] Add step for `dotnet test --no-build` to verify functionality
 
-- [ ] Task: Add Artifact Generation to Backend CI
+- [~] Task: Add Artifact Generation to Backend CI
     - [ ] Add step to publish the API project (`dotnet publish`)
     - [ ] Add step to upload the published project as a GitHub Actions artifact
 
