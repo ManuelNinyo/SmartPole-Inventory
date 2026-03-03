@@ -23,12 +23,12 @@
 
 ## Phase 2: Backend CI Pipeline
 
-- [ ] Task: Create GitHub Actions workflow for Backend
-    - [ ] Create `.github/workflows/backend-ci.yml`
-    - [ ] Define triggers for push and pull requests on the main branch
-    - [ ] Implement steps for: Setup .NET SDK, Restore dependencies
+- [x] Task: Create GitHub Actions workflow for Backend [2d4c59e]
+    - [x] Create `.github/workflows/backend-ci.yml`
+    - [x] Define triggers for push and pull requests on the main branch
+    - [x] Implement steps for: Setup .NET SDK, Restore dependencies
 
-- [ ] Task: Add Lint, Build, and Test steps to Backend CI
+- [~] Task: Add Lint, Build, and Test steps to Backend CI
     - [ ] Add step for `dotnet format --verify-no-changes` to enforce code style
     - [ ] Add step for `dotnet build --no-restore`
     - [ ] Add step for `dotnet test --no-build` to verify functionality
