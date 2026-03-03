@@ -21,7 +21,7 @@
 
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Local Infrastructure with Docker Compose' (Protocol in workflow.md) [1be9bcf]
 
-## Phase 2: Backend CI Pipeline
+## Phase 2: Backend CI Pipeline [checkpoint: 8c0b18b]
 
 - [x] Task: Create GitHub Actions workflow for Backend [2d4c59e]
     - [x] Create `.github/workflows/backend-ci.yml`
@@ -33,11 +33,11 @@
     - [x] Add step for `dotnet build --no-restore`
     - [x] Add step for `dotnet test --no-build` to verify functionality
 
-- [~] Task: Add Artifact Generation to Backend CI
-    - [ ] Add step to publish the API project (`dotnet publish`)
-    - [ ] Add step to upload the published project as a GitHub Actions artifact
+- [x] Task: Add Artifact Generation to Backend CI [a3d45cb]
+    - [x] Add step to publish the API project (`dotnet publish`)
+    - [x] Add step to upload the published project as a GitHub Actions artifact
 
-- [ ] Task: Conductor - User Manual Verification 'Phase 2: Backend CI Pipeline' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Backend CI Pipeline' (Protocol in workflow.md) [8c0b18b]
 
 ## Phase 3: MAUI App CI Pipeline
 
