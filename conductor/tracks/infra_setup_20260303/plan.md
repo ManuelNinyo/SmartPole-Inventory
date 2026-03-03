@@ -8,13 +8,13 @@
     - [x] Define persistent volume for PostgreSQL data storage
     - [x] Map host port 5432 to container port 5432
 
-- [~] Task: Add pgAdmin to `docker-compose.yml`
-    - [ ] Define pgAdmin 4 image (`dpage/pgadmin4`)
-    - [ ] Configure login credentials for pgAdmin (email/password)
-    - [ ] Expose pgAdmin on host port 5050
+- [x] Task: Add pgAdmin to `docker-compose.yml` [9ae2f71]
+    - [x] Define pgAdmin 4 image (`dpage/pgadmin4`)
+    - [x] Configure login credentials for pgAdmin (email/password)
+    - [x] Expose pgAdmin on host port 5050
     - [ ] Configure server connection file (servers.json) for automatic discovery (optional but recommended)
 
-- [ ] Task: Verify local infrastructure
+- [~] Task: Verify local infrastructure
     - [ ] Run `docker compose up -d` and check container logs
     - [ ] Connect to PostgreSQL via pgAdmin and run `SELECT PostGIS_Full_Version();`
     - [ ] Verify data persistence by restarting the container and checking for existing data
