@@ -39,7 +39,7 @@
 
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Backend CI Pipeline' (Protocol in workflow.md) [8c0b18b]
 
-## Phase 3: MAUI App CI Pipeline
+## Phase 3: MAUI App CI Pipeline [checkpoint: 0d8a7c4]
 
 - [x] Task: Create GitHub Actions workflow for MAUI App [cec92b5]
     - [x] Create `.github/workflows/maui-app-ci.yml`
@@ -50,7 +50,7 @@
     - [x] Add step for `dotnet build` for targeted platforms (e.g., Windows, Android)
     - [x] Add step to run unit tests for shared libraries
 
-- [~] Task: Add Artifact Generation to MAUI App CI
-    - [ ] Add step to upload the generated app packages as GitHub Actions artifacts
+- [x] Task: Add Artifact Generation to MAUI App CI [9907624]
+    - [x] Add step to upload the generated app packages as GitHub Actions artifacts
 
-- [ ] Task: Conductor - User Manual Verification 'Phase 3: MAUI App CI Pipeline' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 3: MAUI App CI Pipeline' (Protocol in workflow.md) [0d8a7c4]
