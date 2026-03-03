@@ -41,12 +41,12 @@
 
 ## Phase 3: MAUI App CI Pipeline
 
-- [ ] Task: Create GitHub Actions workflow for MAUI App
-    - [ ] Create `.github/workflows/maui-app-ci.yml`
-    - [ ] Define triggers for push and pull requests on the main branch
-    - [ ] Implement steps for: Setup .NET SDK with MAUI workloads (using `maui-workload-action`)
+- [x] Task: Create GitHub Actions workflow for MAUI App [cec92b5]
+    - [x] Create `.github/workflows/maui-app-ci.yml`
+    - [x] Define triggers for push and pull requests on the main branch
+    - [x] Implement steps for: Setup .NET SDK with MAUI workloads (using `maui-workload-action`)
 
-- [ ] Task: Add Build and Test steps to MAUI App CI
+- [~] Task: Add Build and Test steps to MAUI App CI
     - [ ] Add step for `dotnet build` for targeted platforms (e.g., Windows, Android)
     - [ ] Add step to run unit tests for shared libraries
 
