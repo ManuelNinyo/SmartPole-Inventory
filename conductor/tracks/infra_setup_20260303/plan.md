@@ -2,13 +2,13 @@
 
 ## Phase 1: Local Infrastructure with Docker Compose
 
-- [ ] Task: Create `docker-compose.yml` for PostgreSQL and PostGIS
-    - [ ] Define PostgreSQL 16 image with PostGIS extension (`postgis/postgis:16-3.4`)
-    - [ ] Configure environment variables for credentials and database name
-    - [ ] Define persistent volume for PostgreSQL data storage
-    - [ ] Map host port 5432 to container port 5432
+- [x] Task: Create `docker-compose.yml` for PostgreSQL and PostGIS [87bb5ed]
+    - [x] Define PostgreSQL 16 image with PostGIS extension (`postgis/postgis:16-3.4`)
+    - [x] Configure environment variables for credentials and database name
+    - [x] Define persistent volume for PostgreSQL data storage
+    - [x] Map host port 5432 to container port 5432
 
-- [ ] Task: Add pgAdmin to `docker-compose.yml`
+- [~] Task: Add pgAdmin to `docker-compose.yml`
     - [ ] Define pgAdmin 4 image (`dpage/pgadmin4`)
     - [ ] Configure login credentials for pgAdmin (email/password)
     - [ ] Expose pgAdmin on host port 5050
