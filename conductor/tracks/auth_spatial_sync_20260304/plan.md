@@ -1,20 +1,20 @@
 # Implementation Plan: Authentication, Spatial Queries, and Offline Sync
 
-## Phase 1: JWT Authentication Service
+## Phase 1: JWT Authentication Service [checkpoint: a8df186]
 
-- [ ] Task: Configure JWT Authentication in WebAPI
-    - [ ] Create unit tests for JWT token generation and validation logic
-    - [ ] Implement `IJwtService` and its implementation using `Microsoft.AspNetCore.Authentication.JwtBearer`
-    - [ ] Configure authentication and authorization services in `Program.cs`
-    - [ ] Add JWT settings to `appsettings.json`
+- [x] Task: Configure JWT Authentication in WebAPI [73cef2e]
+    - [x] Create unit tests for JWT token generation and validation logic
+    - [x] Implement `IJwtService` and its implementation using `Microsoft.AspNetCore.Authentication.JwtBearer`
+    - [x] Configure authentication and authorization services in `Program.cs`
+    - [x] Add JWT settings to `appsettings.json`
 
-- [ ] Task: Implement Login Endpoint
-    - [ ] Write integration tests for the `/api/auth/login` endpoint
-    - [ ] Implement `LoginCommand` and its handler
-    - [ ] Create `AuthController` with the `Login` action
-    - [ ] Verify RBAC (Role-Based Access Control) setup for future use
+- [x] Task: Implement Login Endpoint [c51fc45]
+    - [x] Write integration tests for the `/api/auth/login` endpoint
+    - [x] Implement `LoginCommand` and its handler
+    - [x] Create `AuthController` with the `Login` action
+    - [x] Verify RBAC (Role-Based Access Control) setup for future use
 
-- [ ] Task: Conductor - User Manual Verification 'Phase 1: JWT Authentication Service' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 1: JWT Authentication Service' (Protocol in workflow.md) [a8df186]
 
 ## Phase 2: Spatial Query for Smart Poles
 
