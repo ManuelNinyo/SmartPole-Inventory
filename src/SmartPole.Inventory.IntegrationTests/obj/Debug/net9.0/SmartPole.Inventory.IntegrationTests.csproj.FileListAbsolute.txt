@@ -114,3 +114,12 @@ C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.I
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\obj\Debug\net9.0\SmartPole.Inventory.IntegrationTests.pdb
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\obj\Debug\net9.0\SmartPole.Inventory.IntegrationTests.genruntimeconfig.cache
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\obj\Debug\net9.0\ref\SmartPole.Inventory.IntegrationTests.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\MediatR.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\MediatR.Contracts.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\System.Diagnostics.DiagnosticSource.dll

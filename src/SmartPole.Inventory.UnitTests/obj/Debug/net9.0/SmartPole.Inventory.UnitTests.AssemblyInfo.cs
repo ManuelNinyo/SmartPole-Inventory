@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartPole.Inventory.UnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4850322aba1ade7b59cf6cedd3c20f068fe3dc8a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+594f67381dab18790f99bd2b0174432087861085")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartPole.Inventory.UnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartPole.Inventory.UnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
