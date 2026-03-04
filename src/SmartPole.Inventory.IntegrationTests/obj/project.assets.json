@@ -4027,6 +4027,7 @@
       "FluentAssertions >= 8.8.0",
       "Microsoft.AspNetCore.Mvc.Testing >= 9.0.2",
       "Microsoft.EntityFrameworkCore.InMemory >= 9.0.2",
+      "Microsoft.Extensions.Configuration.Json >= 9.0.2",
       "Microsoft.NET.Test.Sdk >= 17.12.0",
       "SmartPole.Inventory.Application >= 1.0.0",
       "SmartPole.Inventory.Infrastructure >= 1.0.0",
@@ -4106,6 +4107,10 @@
             "version": "[9.0.2, )"
           },
           "Microsoft.EntityFrameworkCore.InMemory": {
+            "target": "Package",
+            "version": "[9.0.2, )"
+          },
+          "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
             "version": "[9.0.2, )"
           },
