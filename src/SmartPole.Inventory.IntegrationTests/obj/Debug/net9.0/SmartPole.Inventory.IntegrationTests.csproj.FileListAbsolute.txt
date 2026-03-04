@@ -456,3 +456,15 @@ C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.I
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\obj\Debug\net9.0\SmartPole.Inventory.IntegrationTests.genruntimeconfig.cache
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\obj\Debug\net9.0\ref\SmartPole.Inventory.IntegrationTests.dll
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\NetTopologySuite.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\FluentAssertions.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\NetTopologySuite.IO.PostGis.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Npgsql.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Npgsql.NetTopologySuite.dll

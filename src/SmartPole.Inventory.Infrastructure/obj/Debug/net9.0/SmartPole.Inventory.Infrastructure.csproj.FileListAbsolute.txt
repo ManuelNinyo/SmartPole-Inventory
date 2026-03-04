@@ -15,3 +15,4 @@ C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.I
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\obj\Debug\net9.0\refint\SmartPole.Inventory.Infrastructure.dll
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\obj\Debug\net9.0\SmartPole.Inventory.Infrastructure.pdb
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\obj\Debug\net9.0\ref\SmartPole.Inventory.Infrastructure.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\obj\Debug\net9.0\EFCoreNpgsqlNetTopologySuite.cs
