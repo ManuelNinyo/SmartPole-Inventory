@@ -16,6 +16,8 @@ The system is tailored for a multi-disciplinary set of users:
 ## Core Features
 The initial release will focus on these mission-critical functions:
 - **Inventory Tracking:** A robust system for cataloging smart pole locations, specifications, and current operational status.
+- **Inspection Management:** Periodic checks on smart poles to ensure integrity and identify maintenance needs.
+- **Fraud Detection:** Specialized tracking of unauthorized use or tampering (fraud findings) discovered during inspections.
 - **Reporting & Analytics:** Automated generation of detailed reports and insights to help optimize inventory levels and project timelines.
 
 ## Design & User Experience Goals

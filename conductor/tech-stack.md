@@ -13,7 +13,7 @@
 - **.NET MAUI (Multi-platform App UI):** A cross-platform framework for creating native mobile and desktop apps with C# and XAML. This will provide a consistent user experience for infrastructure and maintenance teams across various devices.
 
 ## Databases
-- **PostgreSQL:** A powerful, open-source object-relational database system for structured inventory data and relational storage needs.
+- **PostgreSQL:** A powerful, open-source object-relational database system for structured inventory data. Includes the **PostGIS** extension for high-performance spatial data handling.
 - **MongoDB:** A flexible, document-oriented NoSQL database, ideal for handling unstructured or semi-structured data, such as real-time sensor logs and status updates.
 
 ## Infrastructure & Deployment
