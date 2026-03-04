@@ -469,3 +469,6 @@ C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.I
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite.dll
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Npgsql.NetTopologySuite.dll
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
