@@ -32,12 +32,12 @@
 
 ## Phase 3: Database Initialization and Migration
 
-- [ ] Task: Create and Apply Initial Migration
-    - [ ] Create the initial migration using `dotnet ef migrations add InitialCreate`
-    - [ ] Apply the migration to the local PostgreSQL database using `dotnet ef database update`
+- [x] Task: Create and Apply Initial Migration [ff5e353]
+    - [x] Create the initial migration using `dotnet ef migrations add InitialCreate`
+    - [x] Apply the migration to the local PostgreSQL database using `dotnet ef database update`
 
-- [ ] Task: Verify Spatial Data Persistence
-    - [ ] Write a verification script or integration test to insert and retrieve a `SmartPole` with a `Point`
-    - [ ] Confirm SRID 3857 is preserved in the database
+- [x] Task: Verify Spatial Data Persistence [ff5e353]
+    - [x] Write a verification script or integration test to insert and retrieve a `SmartPole` with a `Point`
+    - [x] Confirm SRID 3857 is preserved in the database
 
 - [ ] Task: Conductor - User Manual Verification 'Phase 3: Database Initialization and Migration' (Protocol in workflow.md)
