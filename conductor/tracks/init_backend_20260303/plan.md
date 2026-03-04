@@ -44,18 +44,18 @@
 
 ## Phase 4: WebAPI Layer & ODD Configuration
 
-- [~] Task: Configure Observability (ODD)
-    - [ ] Write integration tests for health check and logging configuration
-    - [ ] Configure Serilog for structured logging and health checks (`/health`)
-    - [ ] Configure basic OpenTelemetry tracing (optional skeleton)
+- [x] Task: Configure Observability (ODD) [48662d3]
+    - [x] Write integration tests for health check and logging configuration
+    - [x] Configure Serilog for structured logging and health checks (`/health`)
+    - [x] Configure basic OpenTelemetry tracing (optional skeleton)
 
-- [ ] Task: Integrate Observability with Tests
-    - [ ] Write unit tests for the test logging sink
-    - [ ] Configure test projects to use Serilog sink for capturing output during test runs
-    - [ ] Implement tracing middleware for integration tests (optional)
+- [x] Task: Integrate Observability with Tests [48662d3]
+    - [x] Write unit tests for the test logging sink
+    - [x] Configure test projects to use Serilog sink for capturing output during test runs
+    - [x] Implement tracing middleware for integration tests (optional)
 
-- [ ] Task: Implement API Endpoints (Skeleton)
-    - [ ] Write integration tests for `SmartPoleController`
-    - [ ] Implement `SmartPoleController` in the `WebAPI` layer
+- [x] Task: Implement API Endpoints (Skeleton) [48662d3]
+    - [x] Write integration tests for `SmartPoleController`
+    - [x] Implement `SmartPoleController` in the `WebAPI` layer
 
 - [ ] Task: Conductor - User Manual Verification 'Phase 4: WebAPI Layer & ODD Configuration' (Protocol in workflow.md)
