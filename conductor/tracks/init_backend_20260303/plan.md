@@ -36,9 +36,9 @@
     - [x] Configure MediatR in the `Application` project
     - [x] Create folders for `Commands`, `Queries`, and `Common` behaviors
 
-- [ ] Task: Implement Initial Application Use Cases (Skeleton)
-    - [ ] Write unit tests for a sample `CreateSmartPoleCommand`
-    - [ ] Implement `CreateSmartPoleCommand` handler in the `Application` layer
+- [x] Task: Implement Initial Application Use Cases (Skeleton) [0135231]
+    - [x] Write unit tests for a sample `CreateSmartPoleCommand`
+    - [x] Implement `CreateSmartPoleCommand` handler in the `Application` layer
 
 - [ ] Task: Conductor - User Manual Verification 'Phase 3: Application Layer & CQRS (MediatR)' (Protocol in workflow.md)
 
