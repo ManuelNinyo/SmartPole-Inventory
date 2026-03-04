@@ -2,10 +2,10 @@
 
 ## Phase 1: Domain Entities Implementation
 
-- [ ] Task: Define Base Auditable Entity
-    - [ ] Create `AuditableEntity<TId>` base class in `Domain.Common`
-    - [ ] Add `CreatedAt`, `CreatedBy`, `UpdatedAt`, `UpdatedBy` properties
-    - [ ] Write unit tests for the base auditable entity
+- [x] Task: Define Base Auditable Entity [2a22672]
+    - [x] Create `AuditableEntity<TId>` base class in `Domain.Common`
+    - [x] Add `CreatedAt`, `CreatedBy`, `UpdatedAt`, `UpdatedBy` properties
+    - [x] Write unit tests for the base auditable entity
 
 - [ ] Task: Implement Domain Entities
     - [ ] Create `SmartPole` entity with `Point` location (SRID 3857)
