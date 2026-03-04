@@ -33,6 +33,42 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "SmartPole.Inventory.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SmartPole.Inventory.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SmartPole.Inventory.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SmartPole.Inventory.Application.dll": {}
+        }
+      },
+      "SmartPole.Inventory.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/SmartPole.Inventory.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SmartPole.Inventory.Domain.dll": {}
+        }
+      },
+      "SmartPole.Inventory.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SmartPole.Inventory.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SmartPole.Inventory.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SmartPole.Inventory.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -67,11 +103,28 @@
         "microsoft.openapi.1.6.17.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "SmartPole.Inventory.Application/1.0.0": {
+      "type": "project",
+      "path": "../SmartPole.Inventory.Application/SmartPole.Inventory.Application.csproj",
+      "msbuildProject": "../SmartPole.Inventory.Application/SmartPole.Inventory.Application.csproj"
+    },
+    "SmartPole.Inventory.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SmartPole.Inventory.Domain/SmartPole.Inventory.Domain.csproj",
+      "msbuildProject": "../SmartPole.Inventory.Domain/SmartPole.Inventory.Domain.csproj"
+    },
+    "SmartPole.Inventory.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../SmartPole.Inventory.Infrastructure/SmartPole.Inventory.Infrastructure.csproj",
+      "msbuildProject": "../SmartPole.Inventory.Infrastructure/SmartPole.Inventory.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.AspNetCore.OpenApi >= 9.0.8"
+      "Microsoft.AspNetCore.OpenApi >= 9.0.8",
+      "SmartPole.Inventory.Application >= 1.0.0",
+      "SmartPole.Inventory.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -106,7 +159,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Manuel Niño\\source\\repos\\SmartPole-Inventory\\src\\SmartPole.Inventory.Application\\SmartPole.Inventory.Application.csproj": {
+              "projectPath": "C:\\Users\\Manuel Niño\\source\\repos\\SmartPole-Inventory\\src\\SmartPole.Inventory.Application\\SmartPole.Inventory.Application.csproj"
+            },
+            "C:\\Users\\Manuel Niño\\source\\repos\\SmartPole-Inventory\\src\\SmartPole.Inventory.Infrastructure\\SmartPole.Inventory.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Manuel Niño\\source\\repos\\SmartPole-Inventory\\src\\SmartPole.Inventory.Infrastructure\\SmartPole.Inventory.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

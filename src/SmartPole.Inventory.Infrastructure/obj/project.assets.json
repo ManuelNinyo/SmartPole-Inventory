@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "SmartPole.Inventory.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SmartPole.Inventory.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SmartPole.Inventory.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SmartPole.Inventory.Application.dll": {}
+        }
+      },
+      "SmartPole.Inventory.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/SmartPole.Inventory.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SmartPole.Inventory.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SmartPole.Inventory.Application/1.0.0": {
+      "type": "project",
+      "path": "../SmartPole.Inventory.Application/SmartPole.Inventory.Application.csproj",
+      "msbuildProject": "../SmartPole.Inventory.Application/SmartPole.Inventory.Application.csproj"
+    },
+    "SmartPole.Inventory.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SmartPole.Inventory.Domain/SmartPole.Inventory.Domain.csproj",
+      "msbuildProject": "../SmartPole.Inventory.Domain/SmartPole.Inventory.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "SmartPole.Inventory.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Manuel Niño\\.nuget\\packages\\": {},
@@ -39,7 +76,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Manuel Niño\\source\\repos\\SmartPole-Inventory\\src\\SmartPole.Inventory.Application\\SmartPole.Inventory.Application.csproj": {
+              "projectPath": "C:\\Users\\Manuel Niño\\source\\repos\\SmartPole-Inventory\\src\\SmartPole.Inventory.Application\\SmartPole.Inventory.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
