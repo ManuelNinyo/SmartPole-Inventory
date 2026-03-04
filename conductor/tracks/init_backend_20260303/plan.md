@@ -31,10 +31,10 @@
 
 ## Phase 3: Application Layer & CQRS (MediatR)
 
-- [ ] Task: Set up MediatR and CQRS Structure
-    - [ ] Write unit tests for command/query dispatching logic
-    - [ ] Configure MediatR in the `Application` project
-    - [ ] Create folders for `Commands`, `Queries`, and `Common` behaviors
+- [x] Task: Set up MediatR and CQRS Structure [0819a13]
+    - [x] Write unit tests for command/query dispatching logic
+    - [x] Configure MediatR in the `Application` project
+    - [x] Create folders for `Commands`, `Queries`, and `Common` behaviors
 
 - [ ] Task: Implement Initial Application Use Cases (Skeleton)
     - [ ] Write unit tests for a sample `CreateSmartPoleCommand`
