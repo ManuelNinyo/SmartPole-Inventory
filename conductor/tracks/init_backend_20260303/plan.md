@@ -16,7 +16,7 @@
 
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Solution and Layer Initialization' (Protocol in workflow.md) [9c6ec01]
 
-## Phase 2: Domain Layer & DDD Foundation
+## Phase 2: Domain Layer & DDD Foundation [checkpoint: 26bed25]
 
 - [x] Task: Implement Base DDD Abstractions [22d4698]
     - [x] Write unit tests for `Entity`, `ValueObject`, and `DomainEvent`
@@ -27,7 +27,7 @@
     - [x] Write unit tests for `SmartPole`, `MaintenanceRecord`, and `User`
     - [x] Implement `SmartPole`, `MaintenanceRecord`, and `User` entities in the `Domain` layer
 
-- [ ] Task: Conductor - User Manual Verification 'Phase 2: Domain Layer & DDD Foundation' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Domain Layer & DDD Foundation' (Protocol in workflow.md) [26bed25]
 
 ## Phase 3: Application Layer & CQRS (MediatR)
 
