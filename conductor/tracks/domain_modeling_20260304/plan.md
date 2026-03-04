@@ -17,16 +17,16 @@
 
 ## Phase 2: Infrastructure Persistence Configuration
 
-- [ ] Task: Configure EF Core with PostgreSQL and NetTopologySuite
-    - [ ] Add necessary NuGet packages to `Infrastructure` project (`Npgsql.EntityFrameworkCore.PostgreSQL`, `Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite`)
-    - [ ] Implement `SmartPoleDbContext` inheriting from `DbContext`
-    - [ ] Register `SmartPoleDbContext` in `DependencyInjection.cs`
+- [x] Task: Configure EF Core with PostgreSQL and NetTopologySuite [43155c5]
+    - [x] Add necessary NuGet packages to `Infrastructure` project (`Npgsql.EntityFrameworkCore.PostgreSQL`, `Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite`)
+    - [x] Implement `SmartPoleDbContext` inheriting from `DbContext`
+    - [x] Register `SmartPoleDbContext` in `DependencyInjection.cs`
 
-- [ ] Task: Implement Fluent API Mappings
-    - [ ] Create `EntityTypeConfiguration` classes for each entity in the `Infrastructure` project
-    - [ ] Configure table names, keys, and indexes
-    - [ ] Configure spatial property for `SmartPole.Location` with SRID 3857
-    - [ ] Write integration tests for `DbContext` ensuring schema validity
+- [x] Task: Implement Fluent API Mappings [43155c5]
+    - [x] Create `EntityTypeConfiguration` classes for each entity in the `Infrastructure` project
+    - [x] Configure table names, keys, and indexes
+    - [x] Configure spatial property for `SmartPole.Location` with SRID 3857
+    - [x] Write integration tests for `DbContext` ensuring schema validity
 
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Infrastructure Persistence Configuration' (Protocol in workflow.md)
 
