@@ -121,3 +121,4 @@ C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.U
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.UnitTests\obj\Debug\net9.0\SmartPole.Inventory.UnitTests.pdb
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.UnitTests\obj\Debug\net9.0\SmartPole.Inventory.UnitTests.genruntimeconfig.cache
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.UnitTests\obj\Debug\net9.0\ref\SmartPole.Inventory.UnitTests.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.UnitTests\bin\Debug\net9.0\NetTopologySuite.dll

@@ -455,3 +455,4 @@ C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.I
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\obj\Debug\net9.0\SmartPole.Inventory.IntegrationTests.pdb
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\obj\Debug\net9.0\SmartPole.Inventory.IntegrationTests.genruntimeconfig.cache
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\obj\Debug\net9.0\ref\SmartPole.Inventory.IntegrationTests.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.IntegrationTests\bin\Debug\net9.0\NetTopologySuite.dll

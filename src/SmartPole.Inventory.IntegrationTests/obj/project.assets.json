@@ -1055,6 +1055,19 @@
           "build/netcoreapp3.1/Microsoft.TestPlatform.TestHost.props": {}
         }
       },
+      "NetTopologySuite/2.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/NetTopologySuite.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/NetTopologySuite.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -1458,6 +1471,9 @@
       "SmartPole.Inventory.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "NetTopologySuite": "2.6.0"
+        },
         "compile": {
           "bin/placeholder/SmartPole.Inventory.Domain.dll": {}
         },
@@ -2903,6 +2919,22 @@
         "lib/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll",
         "microsoft.testplatform.testhost.17.12.0.nupkg.sha512",
         "microsoft.testplatform.testhost.nuspec"
+      ]
+    },
+    "NetTopologySuite/2.6.0": {
+      "sha512": "1B1OTacTd4QtFyBeuIOcThwSSLUdRZU3bSFIwM8vk36XiZlBMi3K36u74e4OqwwHRHUuJC1PhbDx4hyI266X1Q==",
+      "type": "package",
+      "path": "nettopologysuite/2.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/NetTopologySuite.dll",
+        "lib/netstandard2.0/NetTopologySuite.xml",
+        "lib/netstandard2.1/NetTopologySuite.dll",
+        "lib/netstandard2.1/NetTopologySuite.xml",
+        "nettopologysuite.2.6.0.nupkg.sha512",
+        "nettopologysuite.nuspec"
       ]
     },
     "Newtonsoft.Json/13.0.1": {

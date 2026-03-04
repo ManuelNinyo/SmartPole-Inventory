@@ -9,3 +9,4 @@ C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.D
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\obj\Debug\net9.0\refint\SmartPole.Inventory.Domain.dll
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\obj\Debug\net9.0\SmartPole.Inventory.Domain.pdb
 C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\obj\Debug\net9.0\ref\SmartPole.Inventory.Domain.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\obj\Debug\net9.0\SmartPole.Inventory.Domain.csproj.AssemblyReference.cache

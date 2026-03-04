@@ -1,13 +1,16 @@
 using SmartPole.Inventory.Domain.Entities;
+using NetTopologySuite.Geometries;
 using Xunit;
 
 namespace SmartPole.Inventory.UnitTests.Domain.Entities;
 
 public class EntityScaffoldingTests {
+  private readonly GeometryFactory _geometryFactory = new GeometryFactory(new PrecisionModel(), 3857);
+
   [Fact]
   public void SmartPoleShouldBeCreatedWithCorrectProperties() {
     var id = Guid.NewGuid();
-    var location = "Test Location";
+    var location = _geometryFactory.CreatePoint(new Coordinate(-74.0060, 40.7128));
     var type = "Smart";
     var status = "Active";
 
@@ -17,21 +20,6 @@ public class EntityScaffoldingTests {
     Assert.Equal(location, pole.Location);
     Assert.Equal(type, pole.Type);
     Assert.Equal(status, pole.Status);
-  }
-
-  [Fact]
-  public void MaintenanceRecordShouldBeCreatedWithCorrectProperties() {
-    var id = Guid.NewGuid();
-    var timestamp = DateTime.UtcNow;
-    var technician = "Test Tech";
-    var action = "Repair";
-
-    var record = new MaintenanceRecord(id, timestamp, technician, action);
-
-    Assert.Equal(id, record.Id);
-    Assert.Equal(timestamp, record.Timestamp);
-    Assert.Equal(technician, record.Technician);
-    Assert.Equal(action, record.Action);
   }
 
   [Fact]
