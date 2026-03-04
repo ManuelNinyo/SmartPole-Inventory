@@ -7,11 +7,11 @@
     - [x] Add `CreatedAt`, `CreatedBy`, `UpdatedAt`, `UpdatedBy` properties
     - [x] Write unit tests for the base auditable entity
 
-- [ ] Task: Implement Domain Entities
-    - [ ] Create `SmartPole` entity with `Point` location (SRID 3857)
-    - [ ] Create `Inspection`, `FraudFinding`, and `TelcoOperator` entities
-    - [ ] Define relationships: Pole (1:N) Inspection (1:N) FraudFinding
-    - [ ] Write unit tests for each entity ensuring correct property initialization and relationships
+- [x] Task: Implement Domain Entities [25c57c6]
+    - [x] Create `SmartPole` entity with `Point` location (SRID 3857)
+    - [x] Create `Inspection`, `FraudFinding`, and `TelcoOperator` entities
+    - [x] Define relationships: Pole (1:N) Inspection (1:N) FraudFinding
+    - [x] Write unit tests for each entity ensuring correct property initialization and relationships
 
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Domain Entities Implementation' (Protocol in workflow.md)
 
