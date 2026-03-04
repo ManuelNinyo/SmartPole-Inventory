@@ -1,0 +1,6 @@
+@SmartPole.Inventory.WebAPI_HostAddress = http://localhost:5209
+
+GET {{SmartPole.Inventory.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BSIuKUzJA3I=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Manuel Niño\\source\\repos\\SmartPole-Inventory\\src\\SmartPole.Inventory.WebAPI\\SmartPole.Inventory.WebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Manuel Niño\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.8\\microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "C:\\Users\\Manuel Niño\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
