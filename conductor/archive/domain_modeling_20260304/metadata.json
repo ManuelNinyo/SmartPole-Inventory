@@ -1,0 +1,8 @@
+{
+  "track_id": "domain_modeling_20260304",
+  "type": "feature",
+  "status": "new",
+  "created_at": "2026-03-04T11:00:00Z",
+  "updated_at": "2026-03-04T11:00:00Z",
+  "description": "Crear el modelo de dominio Poste configurando la propiedad de ubicación como Point (NetTopologySuite). Crear modelos de dominio para Inspeccion, HallazgoFraude, y OperadorTelco. Configurar el DbContext y aplicar la migración inicial a la base de datos PostgreSQL."
+}
