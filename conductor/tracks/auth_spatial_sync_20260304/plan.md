@@ -16,20 +16,20 @@
 
 - [x] Task: Conductor - User Manual Verification 'Phase 1: JWT Authentication Service' (Protocol in workflow.md) [a8df186]
 
-## Phase 2: Spatial Query for Smart Poles
+## Phase 2: Spatial Query for Smart Poles [checkpoint: 97a3280]
 
-- [ ] Task: Implement Spatial Query Logic in Application Layer
-    - [ ] Write unit tests for the spatial filtering logic (NetTopologySuite)
-    - [ ] Create `GetPolesInZoneQuery` and its handler
-    - [ ] Implement the spatial filtering logic using EF Core's `.Within()` or similar spatial methods
+- [x] Task: Implement Spatial Query Logic in Application Layer [8662344]
+    - [x] Write unit tests for the spatial filtering logic (NetTopologySuite)
+    - [x] Create `GetPolesInZoneQuery` and its handler
+    - [x] Implement the spatial filtering logic using EF Core's `.Within()` or similar spatial methods
 
-- [ ] Task: Develop `GET /api/postes/zona` Endpoint
-    - [ ] Write integration tests for retrieving poles within a bounding box/polygon
-    - [ ] Implement the `GetInZone` action in `SmartPoleController`
-    - [ ] Ensure the response supports both GeoJSON and simplified DTO formats
-    - [ ] Apply `[Authorize]` attribute to the endpoint
+- [x] Task: Develop `GET /api/postes/zona` Endpoint [8662344]
+    - [x] Write integration tests for retrieving poles within a bounding box/polygon
+    - [x] Implement the `GetInZone` action in `SmartPoleController`
+    - [x] Ensure the response supports both GeoJSON and simplified DTO formats
+    - [x] Apply `[Authorize]` attribute to the endpoint
 
-- [ ] Task: Conductor - User Manual Verification 'Phase 2: Spatial Query for Smart Poles' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Spatial Query for Smart Poles' (Protocol in workflow.md) [97a3280]
 
 ## Phase 3: Offline Synchronization Mechanism
 
