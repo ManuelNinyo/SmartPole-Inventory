@@ -29,7 +29,7 @@
 
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Domain Layer & DDD Foundation' (Protocol in workflow.md) [26bed25]
 
-## Phase 3: Application Layer & CQRS (MediatR)
+## Phase 3: Application Layer & CQRS (MediatR) [checkpoint: 7c92e0f]
 
 - [x] Task: Set up MediatR and CQRS Structure [0819a13]
     - [x] Write unit tests for command/query dispatching logic
@@ -40,7 +40,7 @@
     - [x] Write unit tests for a sample `CreateSmartPoleCommand`
     - [x] Implement `CreateSmartPoleCommand` handler in the `Application` layer
 
-- [ ] Task: Conductor - User Manual Verification 'Phase 3: Application Layer & CQRS (MediatR)' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 3: Application Layer & CQRS (MediatR)' (Protocol in workflow.md) [7c92e0f]
 
 ## Phase 4: WebAPI Layer & ODD Configuration
 
