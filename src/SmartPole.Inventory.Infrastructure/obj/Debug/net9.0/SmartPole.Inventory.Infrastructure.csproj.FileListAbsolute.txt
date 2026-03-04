@@ -1,0 +1,17 @@
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\bin\Debug\net9.0\SmartPole.Inventory.Infrastructure.deps.json
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\bin\Debug\net9.0\SmartPole.Inventory.Infrastructure.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\bin\Debug\net9.0\SmartPole.Inventory.Infrastructure.pdb
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\bin\Debug\net9.0\SmartPole.Inventory.Application.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\bin\Debug\net9.0\SmartPole.Inventory.Domain.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\bin\Debug\net9.0\SmartPole.Inventory.Application.pdb
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\bin\Debug\net9.0\SmartPole.Inventory.Domain.pdb
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\obj\Debug\net9.0\SmartPole.Inventory.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\obj\Debug\net9.0\SmartPole.Inventory.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\obj\Debug\net9.0\SmartPole.Inventory.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\obj\Debug\net9.0\SmartPole.Inventory.Infrastructure.AssemblyInfo.cs
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\obj\Debug\net9.0\SmartPole.Inventory.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\obj\Debug\net9.0\SmartPol.209045F0.Up2Date
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\obj\Debug\net9.0\SmartPole.Inventory.Infrastructure.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\obj\Debug\net9.0\refint\SmartPole.Inventory.Infrastructure.dll
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\obj\Debug\net9.0\SmartPole.Inventory.Infrastructure.pdb
+C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Infrastructure\obj\Debug\net9.0\ref\SmartPole.Inventory.Infrastructure.dll

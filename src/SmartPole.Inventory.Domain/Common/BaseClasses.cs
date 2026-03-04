@@ -60,3 +60,12 @@ public interface IAggregateRoot { }
 public abstract class DomainEvent {
   public DateTime OccurredOn { get; } = DateTime.UtcNow;
 }
+
+public abstract class AuditableEntity<TId> : Entity<TId> {
+  public DateTime CreatedAt { get; set; }
+  public string? CreatedBy { get; set; }
+  public DateTime? UpdatedAt { get; set; }
+  public string? UpdatedBy { get; set; }
+
+  protected AuditableEntity(TId id) : base(id) { }
+}
