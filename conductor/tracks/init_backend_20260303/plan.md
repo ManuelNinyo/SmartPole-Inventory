@@ -23,9 +23,9 @@
     - [x] Implement base classes in the `Domain` layer
     - [x] Implement `IAggregateRoot` interface
 
-- [ ] Task: Scaffold Initial Domain Entities
-    - [ ] Write unit tests for `SmartPole`, `MaintenanceRecord`, and `User`
-    - [ ] Implement `SmartPole`, `MaintenanceRecord`, and `User` entities in the `Domain` layer
+- [x] Task: Scaffold Initial Domain Entities [64398e8]
+    - [x] Write unit tests for `SmartPole`, `MaintenanceRecord`, and `User`
+    - [x] Implement `SmartPole`, `MaintenanceRecord`, and `User` entities in the `Domain` layer
 
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Domain Layer & DDD Foundation' (Protocol in workflow.md)
 
