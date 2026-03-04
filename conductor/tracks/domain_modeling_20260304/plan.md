@@ -15,7 +15,7 @@
 
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Domain Entities Implementation' (Protocol in workflow.md) [b3511db]
 
-## Phase 2: Infrastructure Persistence Configuration
+## Phase 2: Infrastructure Persistence Configuration [checkpoint: 31d693d]
 
 - [x] Task: Configure EF Core with PostgreSQL and NetTopologySuite [43155c5]
     - [x] Add necessary NuGet packages to `Infrastructure` project (`Npgsql.EntityFrameworkCore.PostgreSQL`, `Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite`)
@@ -28,7 +28,7 @@
     - [x] Configure spatial property for `SmartPole.Location` with SRID 3857
     - [x] Write integration tests for `DbContext` ensuring schema validity
 
-- [ ] Task: Conductor - User Manual Verification 'Phase 2: Infrastructure Persistence Configuration' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Infrastructure Persistence Configuration' (Protocol in workflow.md) [31d693d]
 
 ## Phase 3: Database Initialization and Migration
 
