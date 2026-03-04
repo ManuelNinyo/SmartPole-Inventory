@@ -44,7 +44,7 @@
 
 ## Phase 4: WebAPI Layer & ODD Configuration
 
-- [ ] Task: Configure Observability (ODD)
+- [~] Task: Configure Observability (ODD)
     - [ ] Write integration tests for health check and logging configuration
     - [ ] Configure Serilog for structured logging and health checks (`/health`)
     - [ ] Configure basic OpenTelemetry tracing (optional skeleton)
