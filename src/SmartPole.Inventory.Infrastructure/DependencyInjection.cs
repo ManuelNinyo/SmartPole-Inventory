@@ -16,6 +16,8 @@ public static class DependencyInjection {
 
     services.AddScoped<IJwtService, JwtService>();
 
+    services.AddScoped<IApplicationDbContext>(provider => provider.GetRequiredService<SmartPoleDbContext>());
+
     return services;
   }
 }

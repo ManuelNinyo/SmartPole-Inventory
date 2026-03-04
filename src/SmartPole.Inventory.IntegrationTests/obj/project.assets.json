@@ -1746,6 +1746,8 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "MediatR": "14.1.0",
+          "Microsoft.EntityFrameworkCore": "9.0.2",
+          "NetTopologySuite": "2.6.0",
           "SmartPole.Inventory.Domain": "1.0.0"
         },
         "compile": {
@@ -4197,6 +4199,7 @@
       "Microsoft.EntityFrameworkCore.InMemory >= 9.0.2",
       "Microsoft.Extensions.Configuration.Json >= 9.0.2",
       "Microsoft.NET.Test.Sdk >= 17.12.0",
+      "NetTopologySuite >= 2.6.0",
       "SmartPole.Inventory.Application >= 1.0.0",
       "SmartPole.Inventory.Infrastructure >= 1.0.0",
       "SmartPole.Inventory.WebAPI >= 1.0.0",
@@ -4285,6 +4288,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.12.0, )"
+          },
+          "NetTopologySuite": {
+            "target": "Package",
+            "version": "[2.6.0, )"
           },
           "coverlet.collector": {
             "target": "Package",

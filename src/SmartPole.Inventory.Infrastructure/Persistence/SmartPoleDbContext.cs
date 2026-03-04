@@ -1,9 +1,10 @@
 using Microsoft.EntityFrameworkCore;
+using SmartPole.Inventory.Application.Common.Interfaces;
 using SmartPole.Inventory.Domain.Entities;
 
 namespace SmartPole.Inventory.Infrastructure.Persistence;
 
-public class SmartPoleDbContext : DbContext {
+public class SmartPoleDbContext : DbContext, IApplicationDbContext {
   public DbSet<SmartPole.Inventory.Domain.Entities.SmartPole> SmartPoles => Set<SmartPole.Inventory.Domain.Entities.SmartPole>();
   public DbSet<Inspection> Inspections => Set<Inspection>();
   public DbSet<FraudFinding> FraudFindings => Set<FraudFinding>();

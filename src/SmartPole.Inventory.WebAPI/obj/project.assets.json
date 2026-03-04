@@ -1493,6 +1493,8 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "MediatR": "14.1.0",
+          "Microsoft.EntityFrameworkCore": "9.0.2",
+          "NetTopologySuite": "2.6.0",
           "SmartPole.Inventory.Domain": "1.0.0"
         },
         "compile": {
