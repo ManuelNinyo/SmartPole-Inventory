@@ -31,17 +31,17 @@
 
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Spatial Query for Smart Poles' (Protocol in workflow.md) [97a3280]
 
-## Phase 3: Offline Synchronization Mechanism
+## Phase 3: Offline Synchronization Mechanism [checkpoint: 254c467]
 
-- [ ] Task: Implement Sync Logic in Application Layer
-    - [ ] Write unit tests for batch processing and "Client Wins" conflict resolution
-    - [ ] Create `SyncInspectionsCommand` and its handler
-    - [ ] Implement logic to process a list of inspection DTOs and update the database
+- [x] Task: Implement Sync Logic in Application Layer [6ab4194]
+    - [x] Write unit tests for batch processing and "Client Wins" conflict resolution
+    - [x] Create `SyncInspectionsCommand` and its handler
+    - [x] Implement logic to process a list of inspection DTOs and update the database
 
-- [ ] Task: Develop `POST /api/sync` Endpoint
-    - [ ] Write integration tests for syncing a batch of inspections
-    - [ ] Implement the `Sync` action in a new `SyncController` (or existing one)
-    - [ ] Ensure the endpoint is restricted to the `Technician` role
-    - [ ] Implement detailed response reporting (success/failure per record)
+- [x] Task: Develop `POST /api/sync` Endpoint [6ab4194]
+    - [x] Write integration tests for syncing a batch of inspections
+    - [x] Implement the `Sync` action in a new `SyncController` (or existing one)
+    - [x] Ensure the endpoint is restricted to the `Technician` role
+    - [x] Implement detailed response reporting (success/failure per record)
 
-- [ ] Task: Conductor - User Manual Verification 'Phase 3: Offline Synchronization Mechanism' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 3: Offline Synchronization Mechanism' (Protocol in workflow.md) [254c467]
