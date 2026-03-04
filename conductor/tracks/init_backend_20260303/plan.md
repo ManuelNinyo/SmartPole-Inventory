@@ -42,7 +42,7 @@
 
 - [x] Task: Conductor - User Manual Verification 'Phase 3: Application Layer & CQRS (MediatR)' (Protocol in workflow.md) [7c92e0f]
 
-## Phase 4: WebAPI Layer & ODD Configuration
+## Phase 4: WebAPI Layer & ODD Configuration [checkpoint: 373225f]
 
 - [x] Task: Configure Observability (ODD) [48662d3]
     - [x] Write integration tests for health check and logging configuration
@@ -58,4 +58,4 @@
     - [x] Write integration tests for `SmartPoleController`
     - [x] Implement `SmartPoleController` in the `WebAPI` layer
 
-- [ ] Task: Conductor - User Manual Verification 'Phase 4: WebAPI Layer & ODD Configuration' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 4: WebAPI Layer & ODD Configuration' (Protocol in workflow.md) [373225f]
