@@ -18,10 +18,10 @@
 
 ## Phase 2: Domain Layer & DDD Foundation
 
-- [ ] Task: Implement Base DDD Abstractions
-    - [ ] Write unit tests for `Entity`, `ValueObject`, and `DomainEvent`
-    - [ ] Implement base classes in the `Domain` layer
-    - [ ] Implement `IAggregateRoot` interface
+- [x] Task: Implement Base DDD Abstractions [22d4698]
+    - [x] Write unit tests for `Entity`, `ValueObject`, and `DomainEvent`
+    - [x] Implement base classes in the `Domain` layer
+    - [x] Implement `IAggregateRoot` interface
 
 - [ ] Task: Scaffold Initial Domain Entities
     - [ ] Write unit tests for `SmartPole`, `MaintenanceRecord`, and `User`
