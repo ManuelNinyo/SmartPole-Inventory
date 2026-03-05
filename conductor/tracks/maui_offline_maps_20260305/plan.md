@@ -8,7 +8,7 @@ This plan outlines the steps for integrating offline maps and geolocation servic
 - [x] Task: Create a `ILocationService` interface in `SmartPole.Inventory.MobileCore` to abstract geolocation operations. 8400d2d
 - [x] Task: Implement `LocationService` in `SmartPole.Inventory.App` using MAUI Essentials `Geolocation`. 343c650
 - [x] Task: Write unit tests for `LocationService` (Mocking MAUI Geolocation where possible). 07f0c73
-- [ ] Task: Conductor - User Manual Verification 'Phase 1: Setup and Infrastructure' (Protocol in workflow.md)
+- [~] Task: Conductor - User Manual Verification 'Phase 1: Setup and Infrastructure' (Protocol in workflow.md)
 
 ## Phase 2: Core Map Logic (Loading MBTiles and Tracking Location)
 - [ ] Task: Add a sample `.mbtiles` file to the app's `Resources/Raw` directory (configured as `MauiAsset`).
