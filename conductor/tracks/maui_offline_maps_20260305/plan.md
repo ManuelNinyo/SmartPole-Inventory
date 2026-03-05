@@ -25,10 +25,12 @@ This plan outlines the steps for integrating offline maps and geolocation servic
 - [x] Task: Write unit tests for the data retrieval and pin generation logic. 053590d
 - [x] Task: Conductor - User Manual Verification 'Phase 3: Domain Data Integration' (Protocol in workflow.md)
 
-## Phase 4: Map UI and Interactions (View & ViewModel Implementation)
+## Phase 4: Map UI and Interactions (View & ViewModel Implementation) [checkpoint: d46d6f4]
 - [x] Task: Create `MapViewModel` inheriting from `BaseViewModel` with properties for current location and pole markers. 583e4d0
 - [x] Task: Implement `MapPage.xaml` using the `Mapsui.UI.Maui.MapView` control. 7fc7155
 - [x] Task: Bind the `MapViewModel` to `MapPage.xaml`. 7fc7155
 - [x] Task: Implement "Start Inspection" navigation command in `MapViewModel` triggered by pin selection. 8020d6a
 - [x] Task: Verify that the map correctly handles zooms and pans with the offline background. 84da08d
-- [~] Task: Conductor - User Manual Verification 'Phase 4: Map UI and Interactions' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 4: Map UI and Interactions' (Protocol in workflow.md) d46d6f4
+## Phase: Review Fixes
+- [x] Task: Apply review suggestions e846f9b
