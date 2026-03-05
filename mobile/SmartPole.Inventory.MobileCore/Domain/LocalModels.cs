@@ -6,6 +6,8 @@ public class LocalPoste {
   [PrimaryKey]
   public Guid Id { get; set; }
   public string Location { get; set; } = string.Empty;
+  public double Latitude { get; set; }
+  public double Longitude { get; set; }
   public string Type { get; set; } = string.Empty;
   public string Status { get; set; } = string.Empty;
   public SyncStatus SyncStatus { get; set; }
