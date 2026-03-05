@@ -6,6 +6,8 @@ using SmartPole.Inventory.MobileCore.Models;
 using SmartPole.Inventory.MobileCore.Services;
 using SmartPole.Inventory.MobileCore.Persistence;
 
+using CommunityToolkit.Mvvm.Input;
+
 namespace SmartPole.Inventory.MobileCore.ViewModels;
 
 public partial class MapViewModel : BaseViewModel
@@ -25,6 +27,7 @@ public partial class MapViewModel : BaseViewModel
         Title = "Map";
     }
 
+    [RelayCommand]
     public async Task UpdateCurrentLocationAsync()
     {
         if (IsBusy) return;
@@ -58,6 +61,7 @@ public partial class MapViewModel : BaseViewModel
         }
     }
 
+    [RelayCommand]
     public async Task LoadPolesAsync()
     {
         if (IsBusy) return;
