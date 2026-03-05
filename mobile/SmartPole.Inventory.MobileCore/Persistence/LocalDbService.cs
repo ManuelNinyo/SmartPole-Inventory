@@ -3,7 +3,7 @@ using SmartPole.Inventory.MobileCore.Domain;
 
 namespace SmartPole.Inventory.MobileCore.Persistence;
 
-public class LocalDbService : ILocalDbService {
+public class LocalDbService : ILocalDbService, IDisposable {
   private SQLiteAsyncConnection _database;
   private readonly string _dbPath;
 
@@ -52,5 +52,9 @@ public class LocalDbService : ILocalDbService {
       return await _database.UpdateAsync(fraud);
     else
       return await _database.InsertAsync(fraud);
+  }
+
+  public void Dispose() {
+    _database?.CloseAsync().Wait();
   }
 }
