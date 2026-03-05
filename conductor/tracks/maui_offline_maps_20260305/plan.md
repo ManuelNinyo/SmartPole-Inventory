@@ -1,0 +1,34 @@
+# Implementation Plan: MAUI - Offline Geolocation and Maps Module
+
+This plan outlines the steps for integrating offline maps and geolocation services into the SmartPole-Inventory mobile application using .NET MAUI and Mapsui.
+
+## Phase 1: Setup and Infrastructure (Mapsui & Native Permissions)
+- [ ] Task: Install `Mapsui.Maui` NuGet package in the `SmartPole.Inventory.App` project.
+- [ ] Task: Configure native location permissions in `AndroidManifest.xml` (Android) and `Info.plist` (iOS).
+- [ ] Task: Create a `ILocationService` interface in `SmartPole.Inventory.MobileCore` to abstract geolocation operations.
+- [ ] Task: Implement `LocationService` in `SmartPole.Inventory.App` using MAUI Essentials `Geolocation`.
+- [ ] Task: Write unit tests for `LocationService` (Mocking MAUI Geolocation where possible).
+- [ ] Task: Conductor - User Manual Verification 'Phase 1: Setup and Infrastructure' (Protocol in workflow.md)
+
+## Phase 2: Core Map Logic (Loading MBTiles and Tracking Location)
+- [ ] Task: Add a sample `.mbtiles` file to the app's `Resources/Raw` directory (configured as `MauiAsset`).
+- [ ] Task: Implement a `MapHelper` class in `SmartPole.Inventory.MobileCore` to handle `Mapsui` map object creation and layer setup.
+- [ ] Task: Add logic to `MapHelper` to load and display `.mbtiles` from the bundled assets.
+- [ ] Task: Implement location tracking logic in the Map ViewModel to update the map view with the user's current position.
+- [ ] Task: Write tests for `MapHelper` logic (Ensure correct layer types are created).
+- [ ] Task: Conductor - User Manual Verification 'Phase 2: Core Map Logic' (Protocol in workflow.md)
+
+## Phase 3: Domain Data Integration (Rendering Pins from SQLite)
+- [ ] Task: Extend `ILocalDbService` to provide a method for retrieving poles with spatial data (Latitude/Longitude).
+- [ ] Task: Implement logic in the Map ViewModel to fetch poles from the local database on initialization.
+- [ ] Task: Implement a method in `MapHelper` to create a `PointLayer` from a collection of pole coordinates.
+- [ ] Task: Write unit tests for the data retrieval and pin generation logic.
+- [ ] Task: Conductor - User Manual Verification 'Phase 3: Domain Data Integration' (Protocol in workflow.md)
+
+## Phase 4: Map UI and Interactions (View & ViewModel Implementation)
+- [ ] Task: Create `MapViewModel` inheriting from `BaseViewModel` with properties for current location and pole markers.
+- [ ] Task: Implement `MapPage.xaml` using the `Mapsui.UI.Maui.MapView` control.
+- [ ] Task: Bind the `MapViewModel` to `MapPage.xaml`.
+- [ ] Task: Implement "Start Inspection" navigation command in `MapViewModel` triggered by pin selection.
+- [ ] Task: Verify that the map correctly handles zooms and pans with the offline background.
+- [ ] Task: Conductor - User Manual Verification 'Phase 4: Map UI and Interactions' (Protocol in workflow.md)

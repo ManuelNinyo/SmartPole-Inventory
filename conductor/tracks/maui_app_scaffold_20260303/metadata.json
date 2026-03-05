@@ -1,8 +1,0 @@
-{
-  "track_id": "maui_app_scaffold_20260303",
-  "type": "feature",
-  "status": "new",
-  "created_at": "2026-03-03T22:22:00Z",
-  "updated_at": "2026-03-03T22:22:00Z",
-  "description": "Initialize .NET MAUI solution, set up MVVM with CommunityToolkit, configure SQLite for local storage, implement LocalDbService for CRUD, and set up Dependency Injection."
-}
