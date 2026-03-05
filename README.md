@@ -71,9 +71,16 @@ dotnet build mobile/SmartPole.Inventory.Mobile.sln
 ```
 
 ### Testing
-Run all tests:
+Run tests for specific components:
 ```bash
-dotnet test
+# Run Backend Unit Tests
+dotnet test src/SmartPole.Inventory.UnitTests/SmartPole.Inventory.UnitTests.csproj
+
+# Run Backend Integration Tests (Requires Infrastructure up)
+dotnet test src/SmartPole.Inventory.IntegrationTests/SmartPole.Inventory.IntegrationTests.csproj
+
+# Run Mobile Unit Tests
+dotnet test mobile/SmartPole.Inventory.UnitTests/SmartPole.Inventory.UnitTests.csproj
 ```
 
 ## 📝 License
