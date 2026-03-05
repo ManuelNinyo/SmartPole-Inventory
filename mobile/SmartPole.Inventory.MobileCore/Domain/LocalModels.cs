@@ -1,4 +1,4 @@
-using SQLite;
+﻿using SQLite;
 
 namespace SmartPole.Inventory.MobileCore.Domain;
 
@@ -32,3 +32,4 @@ public class LocalFraude {
   public string Severity { get; set; } = string.Empty;
   public SyncStatus SyncStatus { get; set; }
 }
+

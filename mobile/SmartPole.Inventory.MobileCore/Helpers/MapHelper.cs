@@ -1,4 +1,4 @@
-using System.IO;
+﻿using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using Mapsui;
@@ -17,72 +17,73 @@ namespace SmartPole.Inventory.MobileCore.Helpers;
 
 public static class MapHelper
 {
-    public static Map CreateMap()
+  public static Map CreateMap()
+  {
+    var map = new Map();
+    return map;
+  }
+
+  public static ILayer CreateOsmLayer()
+  {
+    return OpenStreetMap.CreateTileLayer();
+  }
+
+  public static ILayer CreateMbTilesLayer(string mbTilesPath, string layerName = "Offline Map")
+  {
+    if (!File.Exists(mbTilesPath))
     {
-        var map = new Map();
-        return map;
+      throw new FileNotFoundException("MBTiles file not found", mbTilesPath);
     }
 
-    public static ILayer CreateOsmLayer()
+    var connection = new SQLiteConnectionString(mbTilesPath, true);
+    var mbTilesTileSource = new MbTilesTileSource(connection);
+    
+    return new TileLayer(mbTilesTileSource)
     {
-        return OpenStreetMap.CreateTileLayer();
-    }
+      Name = layerName
+    };
+  }
 
-    public static ILayer CreateMbTilesLayer(string mbTilesPath, string layerName = "Offline Map")
+  public static ILayer CreatePinsLayer(IEnumerable<LocationPoint> points, string layerName = "Poles")
+  {
+    var features = points.Select(p =>
     {
-        if (!File.Exists(mbTilesPath))
-        {
-            throw new FileNotFoundException("MBTiles file not found", mbTilesPath);
-        }
+      var feature = new PointFeature(SphericalMercator.FromLonLat(p.Longitude, p.Latitude));
+      feature["name"] = p.Name;
+      feature["description"] = p.Description;
+      return feature;
+    });
 
-        var connection = new SQLiteConnectionString(mbTilesPath, true);
-        var mbTilesTileSource = new MbTilesTileSource(connection);
-        
-        return new TileLayer(mbTilesTileSource)
-        {
-            Name = layerName
-        };
-    }
-
-    public static ILayer CreatePinsLayer(IEnumerable<LocationPoint> points, string layerName = "Poles")
+    return new MemoryLayer
     {
-        var features = points.Select(p =>
-        {
-            var feature = new PointFeature(SphericalMercator.FromLonLat(p.Longitude, p.Latitude));
-            feature["name"] = p.Name;
-            feature["description"] = p.Description;
-            return feature;
-        });
+      Name = layerName,
+      Features = features,
+      Style = new SymbolStyle
+      {
+        SymbolType = SymbolType.Ellipse,
+        Fill = new Brush(Color.Red),
+        SymbolScale = 0.5
+      }
+    };
+  }
 
-        return new MemoryLayer
-        {
-            Name = layerName,
-            Features = features,
-            Style = new SymbolStyle
-            {
-                SymbolType = SymbolType.Ellipse,
-                Fill = new Brush(Color.Red),
-                SymbolScale = 0.5
-            }
-        };
-    }
+  public static ILayer CreateLocationLayer(LocationPoint point, string layerName = "My Location")
+  {
+    var feature = new PointFeature(SphericalMercator.FromLonLat(point.Longitude, point.Latitude));
+    feature["name"] = point.Name;
 
-    public static ILayer CreateLocationLayer(LocationPoint point, string layerName = "My Location")
+    return new MemoryLayer
     {
-        var feature = new PointFeature(SphericalMercator.FromLonLat(point.Longitude, point.Latitude));
-        feature["name"] = point.Name;
-
-        return new MemoryLayer
-        {
-            Name = layerName,
-            Features = new[] { feature },
-            Style = new SymbolStyle
-            {
-                SymbolType = SymbolType.Ellipse,
-                Fill = new Brush(Color.Blue),
-                SymbolScale = 0.7,
-                Outline = new Pen(Color.White, 2)
-            }
-        };
-    }
+      Name = layerName,
+      Features = new[] { feature },
+      Style = new SymbolStyle
+      {
+        SymbolType = SymbolType.Ellipse,
+        Fill = new Brush(Color.Blue),
+        SymbolScale = 0.7,
+        Outline = new Pen(Color.White, 2)
+      }
+    };
+  }
 }
+
