@@ -1,6 +1,7 @@
 using System.Collections.ObjectModel;
 using SmartPole.Inventory.MobileCore.Domain;
 using SmartPole.Inventory.MobileCore.Persistence;
+using SmartPole.Inventory.MobileCore.ViewModels;
 
 namespace SmartPole.Inventory.App.ViewModels;
 

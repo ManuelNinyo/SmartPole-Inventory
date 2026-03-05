@@ -1,6 +1,6 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace SmartPole.Inventory.App.ViewModels;
+namespace SmartPole.Inventory.MobileCore.ViewModels;
 
 public partial class BaseViewModel : ObservableObject {
   [ObservableProperty]
@@ -8,7 +8,7 @@ public partial class BaseViewModel : ObservableObject {
   private bool _isBusy;
 
   [ObservableProperty]
-  private string _title;
+  private string? _title;
 
   public bool IsNotBusy => !IsBusy;
 }

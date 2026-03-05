@@ -1,5 +1,5 @@
 using FluentAssertions;
-using SmartPole.Inventory.App.ViewModels;
+using SmartPole.Inventory.MobileCore.ViewModels;
 using Xunit;
 
 namespace SmartPole.Inventory.UnitTests.ViewModels;

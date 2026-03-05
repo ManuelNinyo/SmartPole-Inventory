@@ -4,7 +4,7 @@ using SmartPole.Inventory.MobileCore.Domain;
 namespace SmartPole.Inventory.MobileCore.Persistence;
 
 public class LocalDbService : ILocalDbService, IDisposable {
-  private SQLiteAsyncConnection _database;
+  private SQLiteAsyncConnection? _database;
   private readonly string _dbPath;
 
   public LocalDbService(string dbPath) {
@@ -23,25 +23,25 @@ public class LocalDbService : ILocalDbService, IDisposable {
 
   public async Task<int> SavePosteAsync(LocalPoste pole) {
     await InitAsync();
-    return await _database.InsertOrReplaceAsync(pole);
+    return await _database!.InsertOrReplaceAsync(pole);
   }
 
   public async Task<List<LocalPoste>> GetPostesAsync() {
     await InitAsync();
-    return await _database.Table<LocalPoste>().ToListAsync();
+    return await _database!.Table<LocalPoste>().ToListAsync();
   }
 
   public async Task<int> SaveInspeccionAsync(LocalInspeccion inspection) {
     await InitAsync();
     if (inspection.LocalId != 0)
-      return await _database.UpdateAsync(inspection);
+      return await _database!.UpdateAsync(inspection);
     else
-      return await _database.InsertAsync(inspection);
+      return await _database!.InsertAsync(inspection);
   }
 
   public async Task<List<LocalInspeccion>> GetPendingInspeccionesAsync() {
     await InitAsync();
-    return await _database.Table<LocalInspeccion>()
+    return await _database!.Table<LocalInspeccion>()
       .Where(i => i.SyncStatus == SyncStatus.Pending || i.SyncStatus == SyncStatus.New)
       .ToListAsync();
   }
@@ -49,9 +49,9 @@ public class LocalDbService : ILocalDbService, IDisposable {
   public async Task<int> SaveFraudeAsync(LocalFraude fraud) {
     await InitAsync();
     if (fraud.LocalId != 0)
-      return await _database.UpdateAsync(fraud);
+      return await _database!.UpdateAsync(fraud);
     else
-      return await _database.InsertAsync(fraud);
+      return await _database!.InsertAsync(fraud);
   }
 
   public void Dispose() {

@@ -1,4 +1,5 @@
 using CommunityToolkit.Mvvm.Input;
+using SmartPole.Inventory.MobileCore.ViewModels;
 
 namespace SmartPole.Inventory.App.ViewModels;
 
