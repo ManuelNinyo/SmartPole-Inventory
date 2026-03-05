@@ -27,6 +27,26 @@ public partial class MapPage : ContentPage
         mapView.Map.Layers.Add(MapHelper.CreateOsmLayer());
         
         _viewModel.PropertyChanged += ViewModel_PropertyChanged;
+
+        mapView.Info += MapView_Info;
+    }
+
+    private void MapView_Info(object? sender, Mapsui.MapInfoEventArgs e)
+    {
+        if (e.MapInfo?.Feature != null)
+        {
+            var name = e.MapInfo.Feature["name"]?.ToString();
+            var description = e.MapInfo.Feature["description"]?.ToString();
+
+            if (!string.IsNullOrEmpty(description))
+            {
+                var pole = _viewModel.Poles.FirstOrDefault(p => p.Name == name);
+                if (pole != null)
+                {
+                    _viewModel.StartInspectionCommand.Execute(pole);
+                }
+            }
+        }
     }
 
     private async void ViewModel_PropertyChanged(object? sender, System.ComponentModel.PropertyChangedEventArgs e)

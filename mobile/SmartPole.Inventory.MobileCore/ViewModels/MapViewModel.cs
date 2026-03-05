@@ -62,6 +62,18 @@ public partial class MapViewModel : BaseViewModel
     }
 
     [RelayCommand]
+    public async Task StartInspectionAsync(LocationPoint pole)
+    {
+        if (pole == null) return;
+        
+        // Navigation logic would go here, e.g., Shell.Current.GoToAsync
+        // For now, we'll just log it
+        System.Diagnostics.Debug.WriteLine($"Starting inspection for pole: {pole.Name}");
+        
+        await Task.CompletedTask;
+    }
+
+    [RelayCommand]
     public async Task LoadPolesAsync()
     {
         if (IsBusy) return;
