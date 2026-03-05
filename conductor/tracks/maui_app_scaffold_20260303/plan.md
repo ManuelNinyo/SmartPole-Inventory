@@ -1,0 +1,46 @@
+# Implementation Plan: .NET MAUI Mobile Application Scaffolding
+
+## Phase 1: Solution and Infrastructure Setup
+
+- [ ] Task: Initialize .NET MAUI Solution
+    - [ ] Create a new .NET MAUI App project (`SmartPole.Inventory.App`)
+    - [ ] Create a Class Library project for shared logic (`SmartPole.Inventory.MobileCore`)
+    - [ ] Add both projects to a new solution (`SmartPole.Inventory.Mobile.sln`)
+    - [ ] Set up project references (App -> MobileCore)
+
+- [ ] Task: Integrate MVVM and Local Storage Packages
+    - [ ] Install `CommunityToolkit.Mvvm` in `MobileCore` and `App`
+    - [ ] Install `sqlite-net-pcl` in `MobileCore`
+    - [ ] Initialize Toolkit configuration in `MauiProgram.cs`
+
+- [ ] Task: Conductor - User Manual Verification 'Phase 1: Solution and Infrastructure Setup' (Protocol in workflow.md)
+
+## Phase 2: Domain and Local Persistence Layer
+
+- [ ] Task: Implement Local Models and State Enum
+    - [ ] Write unit tests for local models and enum serialization
+    - [ ] Define `SyncStatus` enum (`New`, `Pending`, `Synced`, `Error`)
+    - [ ] Create simplified local models for `Poste`, `Inspeccion`, and `Fraude` with SQLite attributes
+
+- [ ] Task: Develop `LocalDbService`
+    - [ ] Write unit tests for database initialization and CRUD operations (using a test SQLite path)
+    - [ ] Implement `ILocalDbService` and `LocalDbService`
+    - [ ] Implement `InitAsync()` to create tables if they don't exist
+    - [ ] Implement `SaveInspectionAsync`, `GetPendingInspectionsAsync`, and basic CRUD for poles
+
+- [ ] Task: Conductor - User Manual Verification 'Phase 2: Domain and Local Persistence Layer' (Protocol in workflow.md)
+
+## Phase 3: MVVM Scaffolding and DI Registration
+
+- [ ] Task: Scaffold Initial ViewModels
+    - [ ] Write unit tests for `BaseViewModel` logic (e.g., IsBusy status)
+    - [ ] Implement `BaseViewModel` (inheriting from `ObservableObject`)
+    - [ ] Implement `MainViewModel` and `InspectionsViewModel` skeletons
+    - [ ] Write basic unit tests for command execution in ViewModels
+
+- [ ] Task: Configure Dependency Injection
+    - [ ] Register `ILocalDbService` as a singleton in `MauiProgram.cs`
+    - [ ] Register all ViewModels and Views in `MauiProgram.cs`
+    - [ ] Verify DI resolution via a simple start-up test or manual check
+
+- [ ] Task: Conductor - User Manual Verification 'Phase 3: MVVM Scaffolding and DI Registration' (Protocol in workflow.md)
