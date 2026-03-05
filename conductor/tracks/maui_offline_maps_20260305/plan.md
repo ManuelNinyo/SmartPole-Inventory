@@ -26,7 +26,7 @@ This plan outlines the steps for integrating offline maps and geolocation servic
 - [x] Task: Conductor - User Manual Verification 'Phase 3: Domain Data Integration' (Protocol in workflow.md)
 
 ## Phase 4: Map UI and Interactions (View & ViewModel Implementation)
-- [ ] Task: Create `MapViewModel` inheriting from `BaseViewModel` with properties for current location and pole markers.
+- [x] Task: Create `MapViewModel` inheriting from `BaseViewModel` with properties for current location and pole markers. 583e4d0
 - [ ] Task: Implement `MapPage.xaml` using the `Mapsui.UI.Maui.MapView` control.
 - [ ] Task: Bind the `MapViewModel` to `MapPage.xaml`.
 - [ ] Task: Implement "Start Inspection" navigation command in `MapViewModel` triggered by pin selection.
