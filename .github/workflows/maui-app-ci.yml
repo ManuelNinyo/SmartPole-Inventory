@@ -17,21 +17,40 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 9.0.x
+        cache: true
+        cache-dependency-path: mobile/SmartPole.Inventory.Mobile.sln
+
+    - name: Cache MAUI Workload
+      id: cache-maui
+      uses: actions/cache@v4
+      with:
+        path: |
+          C:\Program Files\dotnet\sdk-manifests
+          C:\Program Files\dotnet\metadata
+          C:\Program Files\dotnet\packs
+          C:\Program Files\dotnet\library-packs
+          C:\Program Files\dotnet\template-packs
+        key: ${{ runner.os }}-maui-workload-9.0
 
     - name: Install MAUI Workload
+      if: steps.cache-maui.outputs.cache-hit != 'true'
       run: dotnet workload install maui --ignore-failed-sources
 
     - name: Restore dependencies
       working-directory: mobile
       run: dotnet restore SmartPole.Inventory.Mobile.sln
 
-    - name: Build MAUI App
+    - name: Build Mobile Solution
       working-directory: mobile
-      run: dotnet build SmartPole.Inventory.App/SmartPole.Inventory.App.csproj --configuration Release --no-restore -f net9.0-android
+      run: dotnet build SmartPole.Inventory.Mobile.sln --configuration Release --no-restore
 
     - name: Run Mobile Unit Tests
       working-directory: mobile
-      run: dotnet test SmartPole.Inventory.UnitTests/SmartPole.Inventory.UnitTests.csproj --no-build --verbosity normal
+      run: dotnet test SmartPole.Inventory.UnitTests/SmartPole.Inventory.UnitTests.csproj --configuration Release --no-build --verbosity normal
+
+    - name: Build Android App
+      working-directory: mobile
+      run: dotnet build SmartPole.Inventory.App/SmartPole.Inventory.App.csproj --configuration Release --no-restore -f net9.0-android
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
