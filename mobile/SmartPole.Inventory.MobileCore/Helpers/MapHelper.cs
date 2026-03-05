@@ -7,6 +7,7 @@ using Mapsui.Tiling.Layers;
 using Mapsui.Extensions;
 using Mapsui.Providers;
 using SQLite;
+using BruTile.MbTiles;
 
 namespace SmartPole.Inventory.MobileCore.Helpers;
 
@@ -30,8 +31,8 @@ public static class MapHelper
             throw new FileNotFoundException("MBTiles file not found", mbTilesPath);
         }
 
-        var connection = new SQLiteConnectionString(mbTilesPath, false);
-        var mbTilesTileSource = new Mapsui.Tiling.MbTiles.MbTilesTileSource(connection);
+        var connection = new SQLiteConnectionString(mbTilesPath, true);
+        var mbTilesTileSource = new MbTilesTileSource(connection);
         
         return new TileLayer(mbTilesTileSource)
         {

@@ -16,7 +16,7 @@ This plan outlines the steps for integrating offline maps and geolocation servic
 - [x] Task: Add logic to `MapHelper` to load and display `.mbtiles` from the bundled assets. 2139cf7
 - [x] Task: Implement location tracking logic in the Map ViewModel to update the map view with the user's current position. 583e4d0
 - [x] Task: Write tests for `MapHelper` logic (Ensure correct layer types are created). 9468715
-- [ ] Task: Conductor - User Manual Verification 'Phase 2: Core Map Logic' (Protocol in workflow.md)
+- [~] Task: Conductor - User Manual Verification 'Phase 2: Core Map Logic' (Protocol in workflow.md)
 
 ## Phase 3: Domain Data Integration (Rendering Pins from SQLite)
 - [ ] Task: Extend `ILocalDbService` to provide a method for retrieving poles with spatial data (Latitude/Longitude).
