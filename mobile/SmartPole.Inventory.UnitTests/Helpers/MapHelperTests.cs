@@ -1,10 +1,12 @@
 using System;
 using System.IO;
 using System.Linq;
+using System.Collections.Generic;
 using FluentAssertions;
 using Mapsui.Layers;
 using Mapsui.Tiling.Layers;
 using SmartPole.Inventory.MobileCore.Helpers;
+using SmartPole.Inventory.MobileCore.Models;
 using Xunit;
 
 namespace SmartPole.Inventory.UnitTests.Helpers;
@@ -45,6 +47,35 @@ public class MapHelperTests
         act.Should().Throw<FileNotFoundException>();
     }
 
-    // Note: Testing actual MBTiles loading requires a valid .mbtiles file 
-    // and potentially more complex mocking of the SQLite connection.
+    [Fact]
+    public void CreatePinsLayer_ShouldReturnMemoryLayerWithFeatures()
+    {
+        // Arrange
+        var points = new List<LocationPoint>
+        {
+            new LocationPoint { Latitude = 10, Longitude = 20, Name = "P1" },
+            new LocationPoint { Latitude = 11, Longitude = 21, Name = "P2" }
+        };
+
+        // Act
+        var layer = MapHelper.CreatePinsLayer(points) as MemoryLayer;
+
+        // Assert
+        layer.Should().NotBeNull();
+        layer!.Features.Should().HaveCount(2);
+    }
+
+    [Fact]
+    public void CreateLocationLayer_ShouldReturnMemoryLayerWithOneFeature()
+    {
+        // Arrange
+        var point = new LocationPoint { Latitude = 10, Longitude = 20, Name = "Me" };
+
+        // Act
+        var layer = MapHelper.CreateLocationLayer(point) as MemoryLayer;
+
+        // Assert
+        layer.Should().NotBeNull();
+        layer!.Features.Should().HaveCount(1);
+    }
 }
