@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using NSubstitute;
 using SmartPole.Inventory.MobileCore.Domain;
+using SmartPole.Inventory.MobileCore.Models;
 using SmartPole.Inventory.MobileCore.Persistence;
 using SmartPole.Inventory.MobileCore.Services;
 using SmartPole.Inventory.MobileCore.ViewModels;
@@ -88,5 +89,18 @@ public class MapViewModelTests
         _viewModel.Poles.Should().HaveCount(2);
         _viewModel.Poles[0].Name.Should().Be("Pole 1");
         _viewModel.Poles[1].Name.Should().Be("Pole 2");
+    }
+
+    [Fact]
+    public async Task StartInspectionAsync_ShouldExecuteWithoutErrors()
+    {
+        // Arrange
+        var pole = new LocationPoint { Name = "Test Pole", Latitude = 10, Longitude = 20 };
+
+        // Act
+        Func<Task> act = async () => await _viewModel.StartInspectionAsync(pole);
+
+        // Assert
+        await act.Should().NotThrowAsync();
     }
 }

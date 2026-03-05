@@ -30,5 +30,5 @@ This plan outlines the steps for integrating offline maps and geolocation servic
 - [x] Task: Implement `MapPage.xaml` using the `Mapsui.UI.Maui.MapView` control. 7fc7155
 - [x] Task: Bind the `MapViewModel` to `MapPage.xaml`. 7fc7155
 - [x] Task: Implement "Start Inspection" navigation command in `MapViewModel` triggered by pin selection. 8020d6a
-- [~] Task: Verify that the map correctly handles zooms and pans with the offline background.
-- [ ] Task: Conductor - User Manual Verification 'Phase 4: Map UI and Interactions' (Protocol in workflow.md)
+- [x] Task: Verify that the map correctly handles zooms and pans with the offline background. 84da08d
+- [~] Task: Conductor - User Manual Verification 'Phase 4: Map UI and Interactions' (Protocol in workflow.md)
