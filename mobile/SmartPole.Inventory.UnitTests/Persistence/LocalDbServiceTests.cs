@@ -6,6 +6,10 @@ using Xunit;
 namespace SmartPole.Inventory.UnitTests.Persistence;
 
 public class LocalDbServiceTests {
+  public LocalDbServiceTests() {
+    SQLitePCL.Batteries.Init();
+  }
+
   [Fact]
   public async Task InitAsync_ShouldCreateTables() {
     // Arrange
