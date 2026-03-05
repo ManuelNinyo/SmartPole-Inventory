@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using SmartPole.Inventory.App.ViewModels;
+using SmartPole.Inventory.App.Views;
 using SmartPole.Inventory.MobileCore.Persistence;
 
 namespace SmartPole.Inventory.App;

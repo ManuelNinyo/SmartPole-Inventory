@@ -1,4 +1,4 @@
-﻿namespace SmartPole.Inventory.App;
+﻿namespace SmartPole.Inventory.App.Views;
 
 public partial class MainPage : ContentPage
 {
