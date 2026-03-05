@@ -1,14 +1,6 @@
-# Project Tracks
+﻿# Project Tracks
 
 This file tracks all major tracks for the project. Each track has its own detailed plan in its respective folder.
 
----
 
 
----
-
-
-
-- [x] **Track: MAUI - Offline Geolocation and Maps Module**
-
-*Link: [./tracks/maui_offline_maps_20260305/](./tracks/maui_offline_maps_20260305/)*
