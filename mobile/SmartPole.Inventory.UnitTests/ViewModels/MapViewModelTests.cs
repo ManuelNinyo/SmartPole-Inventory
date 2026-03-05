@@ -1,6 +1,10 @@
+using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using FluentAssertions;
 using NSubstitute;
+using SmartPole.Inventory.MobileCore.Domain;
+using SmartPole.Inventory.MobileCore.Persistence;
 using SmartPole.Inventory.MobileCore.Services;
 using SmartPole.Inventory.MobileCore.ViewModels;
 using Xunit;
@@ -10,12 +14,14 @@ namespace SmartPole.Inventory.UnitTests.ViewModels;
 public class MapViewModelTests
 {
     private readonly ILocationService _locationService;
+    private readonly ILocalDbService _localDbService;
     private readonly MapViewModel _viewModel;
 
     public MapViewModelTests()
     {
         _locationService = Substitute.For<ILocationService>();
-        _viewModel = new MapViewModel(_locationService);
+        _localDbService = Substitute.For<ILocalDbService>();
+        _viewModel = new MapViewModel(_locationService, _localDbService);
     }
 
     [Fact]
@@ -62,5 +68,25 @@ public class MapViewModelTests
 
         // Assert
         _viewModel.CurrentLocation.Should().BeNull();
+    }
+
+    [Fact]
+    public async Task LoadPolesAsync_ShouldPopulatePolesCollection()
+    {
+        // Arrange
+        var mockPoles = new List<LocalPoste>
+        {
+            new LocalPoste { Id = Guid.NewGuid(), Location = "Pole 1", Latitude = 10, Longitude = 20, Type = "Smart", Status = "Active" },
+            new LocalPoste { Id = Guid.NewGuid(), Location = "Pole 2", Latitude = 11, Longitude = 21, Type = "Standard", Status = "Idle" }
+        };
+        _localDbService.GetPostesAsync().Returns(mockPoles);
+
+        // Act
+        await _viewModel.LoadPolesAsync();
+
+        // Assert
+        _viewModel.Poles.Should().HaveCount(2);
+        _viewModel.Poles[0].Name.Should().Be("Pole 1");
+        _viewModel.Poles[1].Name.Should().Be("Pole 2");
     }
 }

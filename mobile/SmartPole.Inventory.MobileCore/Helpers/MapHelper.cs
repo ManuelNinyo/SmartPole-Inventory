@@ -11,6 +11,7 @@ using Mapsui.Providers;
 using SQLite;
 using BruTile.MbTiles;
 using SmartPole.Inventory.MobileCore.Models;
+using Mapsui.Projections;
 
 namespace SmartPole.Inventory.MobileCore.Helpers;
 
