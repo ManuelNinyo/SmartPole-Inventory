@@ -15,20 +15,20 @@
 
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Solution and Infrastructure Setup' (Protocol in workflow.md) [48d9dcc]
 
-## Phase 2: Domain and Local Persistence Layer
+## Phase 2: Domain and Local Persistence Layer [checkpoint: 74219c1]
 
-- [ ] Task: Implement Local Models and State Enum
-    - [ ] Write unit tests for local models and enum serialization
-    - [ ] Define `SyncStatus` enum (`New`, `Pending`, `Synced`, `Error`)
-    - [ ] Create simplified local models for `Poste`, `Inspeccion`, and `Fraude` with SQLite attributes
+- [x] Task: Implement Local Models and State Enum [e367571]
+    - [x] Write unit tests for local models and enum serialization
+    - [x] Define `SyncStatus` enum (`New`, `Pending`, `Synced`, `Error`)
+    - [x] Create simplified local models for `Poste`, `Inspeccion`, and `Fraude` with SQLite attributes
 
-- [ ] Task: Develop `LocalDbService`
-    - [ ] Write unit tests for database initialization and CRUD operations (using a test SQLite path)
-    - [ ] Implement `ILocalDbService` and `LocalDbService`
-    - [ ] Implement `InitAsync()` to create tables if they don't exist
-    - [ ] Implement `SaveInspectionAsync`, `GetPendingInspectionsAsync`, and basic CRUD for poles
+- [x] Task: Develop `LocalDbService` [3c80ebb]
+    - [x] Write unit tests for database initialization and CRUD operations (using a test SQLite path)
+    - [x] Implement `ILocalDbService` and `LocalDbService`
+    - [x] Implement `InitAsync()` to create tables if they don't exist
+    - [x] Implement `SaveInspectionAsync`, `GetPendingInspectionsAsync`, and basic CRUD for poles
 
-- [ ] Task: Conductor - User Manual Verification 'Phase 2: Domain and Local Persistence Layer' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Domain and Local Persistence Layer' (Protocol in workflow.md) [74219c1]
 
 ## Phase 3: MVVM Scaffolding and DI Registration
 
