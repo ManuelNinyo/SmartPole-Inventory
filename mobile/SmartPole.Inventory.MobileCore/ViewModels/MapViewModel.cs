@@ -1,23 +1,27 @@
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.ComponentModel;
 using SmartPole.Inventory.MobileCore.Models;
 using SmartPole.Inventory.MobileCore.Services;
+using SmartPole.Inventory.MobileCore.Persistence;
 
 namespace SmartPole.Inventory.MobileCore.ViewModels;
 
 public partial class MapViewModel : BaseViewModel
 {
     private readonly ILocationService _locationService;
+    private readonly ILocalDbService _localDbService;
 
     [ObservableProperty]
     private LocationPoint? _currentLocation;
 
     public ObservableCollection<LocationPoint> Poles { get; } = new();
 
-    public MapViewModel(ILocationService locationService)
+    public MapViewModel(ILocationService locationService, ILocalDbService localDbService)
     {
         _locationService = locationService;
+        _localDbService = localDbService;
         Title = "Map";
     }
 
@@ -46,6 +50,32 @@ public partial class MapViewModel : BaseViewModel
                         Name = "You are here"
                     };
                 }
+            }
+        }
+        finally
+        {
+            IsBusy = false;
+        }
+    }
+
+    public async Task LoadPolesAsync()
+    {
+        if (IsBusy) return;
+
+        IsBusy = true;
+        try
+        {
+            var localPoles = await _localDbService.GetPostesAsync();
+            Poles.Clear();
+            foreach (var pole in localPoles)
+            {
+                Poles.Add(new LocationPoint
+                {
+                    Latitude = pole.Latitude,
+                    Longitude = pole.Longitude,
+                    Name = pole.Location,
+                    Description = $"{pole.Type} - {pole.Status}"
+                });
             }
         }
         finally
