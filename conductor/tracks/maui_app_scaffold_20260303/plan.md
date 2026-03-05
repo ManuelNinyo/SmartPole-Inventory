@@ -30,7 +30,7 @@
 
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Domain and Local Persistence Layer' (Protocol in workflow.md) [74219c1]
 
-## Phase 3: MVVM Scaffolding and DI Registration [checkpoint: d54e619]
+## Phase 3: MVVM Scaffolding and DI Registration [checkpoint: 56cb141]
 
 - [x] Task: Scaffold Initial ViewModels [a45e0d9]
     - [x] Write unit tests for `BaseViewModel` logic (e.g., IsBusy status)
@@ -38,7 +38,7 @@
     - [x] Implement `MainViewModel` and `InspectionsViewModel` skeletons
     - [x] Write basic unit tests for command execution in ViewModels
 
-- [x] Task: Configure Dependency Injection [74e7842]
+- [x] Task: Configure Dependency Injection [be1a08b]
     - [x] Register `ILocalDbService` as a singleton in `MauiProgram.cs`
     - [x] Register all ViewModels and Views in `MauiProgram.cs`
     - [x] Verify DI resolution via a simple start-up test or manual check
