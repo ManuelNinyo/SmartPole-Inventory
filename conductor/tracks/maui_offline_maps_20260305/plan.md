@@ -19,7 +19,7 @@ This plan outlines the steps for integrating offline maps and geolocation servic
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Core Map Logic' (Protocol in workflow.md)
 
 ## Phase 3: Domain Data Integration (Rendering Pins from SQLite)
-- [ ] Task: Extend `ILocalDbService` to provide a method for retrieving poles with spatial data (Latitude/Longitude).
+- [x] Task: Extend `ILocalDbService` to provide a method for retrieving poles with spatial data (Latitude/Longitude). a787116
 - [ ] Task: Implement logic in the Map ViewModel to fetch poles from the local database on initialization.
 - [ ] Task: Implement a method in `MapHelper` to create a `PointLayer` from a collection of pole coordinates.
 - [ ] Task: Write unit tests for the data retrieval and pin generation logic.
