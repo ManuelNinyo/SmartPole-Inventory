@@ -29,6 +29,6 @@ This plan outlines the steps for integrating offline maps and geolocation servic
 - [x] Task: Create `MapViewModel` inheriting from `BaseViewModel` with properties for current location and pole markers. 583e4d0
 - [x] Task: Implement `MapPage.xaml` using the `Mapsui.UI.Maui.MapView` control. 7fc7155
 - [x] Task: Bind the `MapViewModel` to `MapPage.xaml`. 7fc7155
-- [ ] Task: Implement "Start Inspection" navigation command in `MapViewModel` triggered by pin selection.
+- [x] Task: Implement "Start Inspection" navigation command in `MapViewModel` triggered by pin selection. 8020d6a
 - [ ] Task: Verify that the map correctly handles zooms and pans with the offline background.
 - [ ] Task: Conductor - User Manual Verification 'Phase 4: Map UI and Interactions' (Protocol in workflow.md)
