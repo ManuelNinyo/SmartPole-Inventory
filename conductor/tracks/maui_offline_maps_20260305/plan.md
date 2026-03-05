@@ -18,12 +18,12 @@ This plan outlines the steps for integrating offline maps and geolocation servic
 - [x] Task: Write tests for `MapHelper` logic (Ensure correct layer types are created). 9468715
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Core Map Logic' (Protocol in workflow.md)
 
-## Phase 3: Domain Data Integration (Rendering Pins from SQLite)
+## Phase 3: Domain Data Integration (Rendering Pins from SQLite) [checkpoint: badec2b]
 - [x] Task: Extend `ILocalDbService` to provide a method for retrieving poles with spatial data (Latitude/Longitude). a787116
 - [x] Task: Implement logic in the Map ViewModel to fetch poles from the local database on initialization. 1f2196e
 - [x] Task: Implement a method in `MapHelper` to create a `PointLayer` from a collection of pole coordinates. f4c9236
 - [x] Task: Write unit tests for the data retrieval and pin generation logic. 053590d
-- [~] Task: Conductor - User Manual Verification 'Phase 3: Domain Data Integration' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 3: Domain Data Integration' (Protocol in workflow.md)
 
 ## Phase 4: Map UI and Interactions (View & ViewModel Implementation)
 - [ ] Task: Create `MapViewModel` inheriting from `BaseViewModel` with properties for current location and pole markers.
