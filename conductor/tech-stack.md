@@ -12,6 +12,8 @@
 
 ## Frontend Framework
 - **.NET MAUI (Multi-platform App UI):** A cross-platform framework for creating native mobile and desktop apps with C# and XAML. This will provide a consistent user experience for infrastructure and maintenance teams across various devices.
+- **MVVM Architecture:** Uses the CommunityToolkit.Mvvm for clean separation of UI and logic.
+- **SQLite:** Local data persistence on the mobile device using sqlite-net-pcl for offline capability.
 
 ## Databases
 - **PostgreSQL:** A powerful, open-source object-relational database system for structured inventory data. Includes the **PostGIS** extension for high-performance spatial data handling.
