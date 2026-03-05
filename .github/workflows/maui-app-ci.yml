@@ -16,22 +16,22 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 8.0.x
+        dotnet-version: 9.0.x
 
     - name: Install MAUI Workload
-      run: dotnet workload install maui
+      run: dotnet workload install maui --ignore-failed-sources
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore mobile/SmartPole.Inventory.Mobile.sln
 
-    - name: Build
-      run: dotnet build --configuration Release --no-restore
+    - name: Build MAUI App
+      run: dotnet build mobile/SmartPole.Inventory.App/SmartPole.Inventory.App.csproj --configuration Release --no-restore -f net9.0-android
 
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+    - name: Run Mobile Unit Tests
+      run: dotnet test mobile/SmartPole.Inventory.UnitTests/SmartPole.Inventory.UnitTests.csproj --no-build --verbosity normal
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: maui-app
-        path: bin/Release/
+        name: maui-app-android
+        path: mobile/SmartPole.Inventory.App/bin/Release/net9.0-android/*.apk
