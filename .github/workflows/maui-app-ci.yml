@@ -40,13 +40,13 @@ jobs:
       working-directory: mobile
       run: dotnet restore SmartPole.Inventory.Mobile.sln
 
-    - name: Build Mobile Solution
+    - name: Build Mobile Core
       working-directory: mobile
-      run: dotnet build SmartPole.Inventory.Mobile.sln --configuration Release --no-restore
+      run: dotnet build SmartPole.Inventory.MobileCore/SmartPole.Inventory.MobileCore.csproj --configuration Release --no-restore
 
     - name: Run Mobile Unit Tests
       working-directory: mobile
-      run: dotnet test SmartPole.Inventory.UnitTests/SmartPole.Inventory.UnitTests.csproj --configuration Release --no-build --verbosity normal
+      run: dotnet test SmartPole.Inventory.UnitTests/SmartPole.Inventory.UnitTests.csproj --configuration Release --no-restore --verbosity normal
 
     - name: Build Android App
       working-directory: mobile
