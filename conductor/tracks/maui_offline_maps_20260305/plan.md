@@ -14,7 +14,7 @@ This plan outlines the steps for integrating offline maps and geolocation servic
 - [x] Task: Add a sample `.mbtiles` file to the app's `Resources/Raw` directory (configured as `MauiAsset`). 5e3d378
 - [x] Task: Implement a `MapHelper` class in `SmartPole.Inventory.MobileCore` to handle `Mapsui` map object creation and layer setup. e9545fa
 - [x] Task: Add logic to `MapHelper` to load and display `.mbtiles` from the bundled assets. 2139cf7
-- [ ] Task: Implement location tracking logic in the Map ViewModel to update the map view with the user's current position.
+- [x] Task: Implement location tracking logic in the Map ViewModel to update the map view with the user's current position. 583e4d0
 - [ ] Task: Write tests for `MapHelper` logic (Ensure correct layer types are created).
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Core Map Logic' (Protocol in workflow.md)
 
