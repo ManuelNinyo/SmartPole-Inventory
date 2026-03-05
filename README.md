@@ -84,4 +84,4 @@ dotnet test mobile/SmartPole.Inventory.UnitTests/SmartPole.Inventory.UnitTests.c
 ```
 
 ## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Copyright (c) 2026 Manuel Fernando Niño Riaño. All rights reserved. Proprietary and Confidential. See the LICENSE file for details.
