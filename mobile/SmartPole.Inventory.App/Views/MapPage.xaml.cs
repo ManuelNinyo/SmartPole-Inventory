@@ -4,6 +4,8 @@ using Microsoft.Maui.Storage;
 using SmartPole.Inventory.MobileCore.Helpers;
 using SmartPole.Inventory.MobileCore.ViewModels;
 using Mapsui.Projections;
+using Mapsui;
+using Mapsui.Extensions;
 
 namespace SmartPole.Inventory.App.Views;
 
@@ -19,24 +21,42 @@ public partial class MapPage : ContentPage
         InitializeMap();
     }
 
-    private void InitializeMap()
+    private async void InitializeMap()
     {
         mapView.Map = MapHelper.CreateMap();
         
-        // Add OSM for testing, can be replaced by MBTiles
-        mapView.Map.Layers.Add(MapHelper.CreateOsmLayer());
+        // Load MBTiles from bundled assets
+        try
+        {
+            string mbTilesPath = Path.Combine(FileSystem.AppDataDirectory, "sample_map.mbtiles");
+            if (!File.Exists(mbTilesPath))
+            {
+                using var stream = await FileSystem.OpenAppPackageFileAsync("sample_map.mbtiles");
+                using var destStream = File.Create(mbTilesPath);
+                await stream.CopyToAsync(destStream);
+            }
+
+            mapView.Map.Layers.Add(MapHelper.CreateMbTilesLayer(mbTilesPath));
+        }
+        catch (Exception ex)
+        {
+            // Fallback to OSM if MBTiles fails
+            System.Diagnostics.Debug.WriteLine($"MBTiles loading failed: {ex.Message}. Falling back to OSM.");
+            mapView.Map.Layers.Add(MapHelper.CreateOsmLayer());
+        }
         
         _viewModel.PropertyChanged += ViewModel_PropertyChanged;
 
         mapView.Info += MapView_Info;
     }
 
-    private void MapView_Info(object? sender, Mapsui.MapInfoEventArgs e)
+    private void MapView_Info(object? sender, MapInfoEventArgs e)
     {
-        if (e.MapInfo?.Feature != null)
+        var mapInfo = e.GetMapInfo(mapView.Map.Layers);
+        if (mapInfo?.Feature != null)
         {
-            var name = e.MapInfo.Feature["name"]?.ToString();
-            var description = e.MapInfo.Feature["description"]?.ToString();
+            var name = mapInfo.Feature["name"]?.ToString();
+            var description = mapInfo.Feature["description"]?.ToString();
 
             if (!string.IsNullOrEmpty(description))
             {
@@ -49,11 +69,11 @@ public partial class MapPage : ContentPage
         }
     }
 
-    private async void ViewModel_PropertyChanged(object? sender, System.ComponentModel.PropertyChangedEventArgs e)
+    private void ViewModel_PropertyChanged(object? sender, System.ComponentModel.PropertyChangedEventArgs e)
     {
         if (e.PropertyName == nameof(MapViewModel.CurrentLocation) && _viewModel.CurrentLocation != null)
         {
-            await UpdateMapLocation();
+            UpdateMapLocation();
         }
         else if (e.PropertyName == nameof(MapViewModel.Poles))
         {
@@ -61,7 +81,7 @@ public partial class MapPage : ContentPage
         }
     }
 
-    private async Task UpdateMapLocation()
+    private void UpdateMapLocation()
     {
         if (_viewModel.CurrentLocation == null) return;
 
@@ -74,8 +94,8 @@ public partial class MapPage : ContentPage
         mapView.Map.Layers.Add(layer);
 
         var point = SphericalMercator.FromLonLat(_viewModel.CurrentLocation.Longitude, _viewModel.CurrentLocation.Latitude);
-        mapView.Navigator.CenterOn(point);
-        mapView.Navigator.ZoomTo(mapView.Map.Resolutions[15]);
+        mapView.Map.Navigator.CenterOn(new MPoint(point.x, point.y));
+        mapView.Map.Navigator.ZoomTo(mapView.Map.Navigator.Resolutions[15]);
     }
 
     private void UpdatePolesLayer()

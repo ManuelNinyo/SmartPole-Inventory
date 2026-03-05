@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using SmartPole.Inventory.App.ViewModels;
 using SmartPole.Inventory.App.Views;
+using SmartPole.Inventory.MobileCore.ViewModels;
 using SmartPole.Inventory.MobileCore.Persistence;
 
 namespace SmartPole.Inventory.App;
@@ -28,8 +29,10 @@ public static class MauiProgram
 
 		builder.Services.AddSingleton<MainViewModel>();
 		builder.Services.AddTransient<InspectionsViewModel>();
+		builder.Services.AddTransient<MapViewModel>();
 
 		builder.Services.AddSingleton<MainPage>();
+		builder.Services.AddTransient<MapPage>();
 
 		return builder.Build();
 	}
