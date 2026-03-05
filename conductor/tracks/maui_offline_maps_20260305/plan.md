@@ -3,7 +3,7 @@
 This plan outlines the steps for integrating offline maps and geolocation services into the SmartPole-Inventory mobile application using .NET MAUI and Mapsui.
 
 ## Phase 1: Setup and Infrastructure (Mapsui & Native Permissions)
-- [ ] Task: Install `Mapsui.Maui` NuGet package in the `SmartPole.Inventory.App` project.
+- [x] Task: Install `Mapsui.Maui` NuGet package in the `SmartPole.Inventory.App` project. 7554fb7
 - [ ] Task: Configure native location permissions in `AndroidManifest.xml` (Android) and `Info.plist` (iOS).
 - [ ] Task: Create a `ILocationService` interface in `SmartPole.Inventory.MobileCore` to abstract geolocation operations.
 - [ ] Task: Implement `LocationService` in `SmartPole.Inventory.App` using MAUI Essentials `Geolocation`.
