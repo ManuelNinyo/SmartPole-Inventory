@@ -19,6 +19,8 @@ The initial release will focus on these mission-critical functions:
 - **Inspection Management:** Periodic checks on smart poles to ensure integrity and identify maintenance needs.
 - **Fraud Detection:** Specialized tracking of unauthorized use or tampering (fraud findings) discovered during inspections.
 - **Reporting & Analytics:** Automated generation of detailed reports and insights to help optimize inventory levels and project timelines.
+- **Secure Mobile Access:** Role-based access control for field personnel using JWT authentication.
+- **Reliable Field Sync:** Seamless synchronization of offline maintenance records captured in areas with limited connectivity.
 
 ## Design & User Experience Goals
 To ensure high adoption and usability across different environments:
