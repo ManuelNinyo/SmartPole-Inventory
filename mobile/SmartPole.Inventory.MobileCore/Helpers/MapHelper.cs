@@ -46,13 +46,13 @@ public static class MapHelper
 
   public static ILayer CreatePinsLayer(IEnumerable<LocationPoint> points, string layerName = "Poles")
   {
-    var features = points.Select(p =>
+    var features = points?.Select(p =>
     {
       var feature = new PointFeature(SphericalMercator.FromLonLat(p.Longitude, p.Latitude));
       feature["name"] = p.Name;
       feature["description"] = p.Description;
       return feature;
-    });
+    }).ToList() ?? new List<PointFeature>();
 
     return new MemoryLayer
     {
@@ -61,7 +61,7 @@ public static class MapHelper
       Style = new SymbolStyle
       {
         SymbolType = SymbolType.Ellipse,
-        Fill = new Brush(Color.Red),
+        Fill = new Brush(Color.FromString("Red")),
         SymbolScale = 0.5
       }
     };
@@ -69,6 +69,8 @@ public static class MapHelper
 
   public static ILayer CreateLocationLayer(LocationPoint point, string layerName = "My Location")
   {
+    if (point == null) return new MemoryLayer { Name = layerName };
+
     var feature = new PointFeature(SphericalMercator.FromLonLat(point.Longitude, point.Latitude));
     feature["name"] = point.Name;
 
@@ -79,9 +81,9 @@ public static class MapHelper
       Style = new SymbolStyle
       {
         SymbolType = SymbolType.Ellipse,
-        Fill = new Brush(Color.Blue),
+        Fill = new Brush(Color.FromString("Blue")),
         SymbolScale = 0.7,
-        Outline = new Pen(Color.White, 2)
+        Outline = new Pen(Color.FromString("White"), 2)
       }
     };
   }

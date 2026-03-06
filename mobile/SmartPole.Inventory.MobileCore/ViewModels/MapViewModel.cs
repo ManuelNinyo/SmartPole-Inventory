@@ -55,6 +55,10 @@ public partial class MapViewModel : BaseViewModel
         }
       }
     }
+    catch (Exception ex)
+    {
+      System.Diagnostics.Debug.WriteLine($"Error updating location: {ex.Message}");
+    }
     finally
     {
       IsBusy = false;
@@ -93,6 +97,10 @@ public partial class MapViewModel : BaseViewModel
           Description = $"{pole.Type} - {pole.Status}"
         });
       }
+    }
+    catch (Exception ex)
+    {
+      System.Diagnostics.Debug.WriteLine($"Error loading poles: {ex.Message}");
     }
     finally
     {
