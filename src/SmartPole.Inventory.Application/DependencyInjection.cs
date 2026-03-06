@@ -8,6 +8,8 @@ public static class DependencyInjection {
       cfg.RegisterServicesFromAssembly(typeof(DependencyInjection).Assembly);
     });
 
+    services.AddSingleton<SmartPole.Inventory.Domain.ML.IYoloModelService, SmartPole.Inventory.Application.ML.YoloModelService>();
+
     return services;
   }
 }

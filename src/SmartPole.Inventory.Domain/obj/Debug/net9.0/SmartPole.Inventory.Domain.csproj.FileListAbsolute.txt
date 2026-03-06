@@ -1,12 +1,25 @@
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\bin\Debug\net9.0\SmartPole.Inventory.Domain.deps.json
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\bin\Debug\net9.0\SmartPole.Inventory.Domain.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\bin\Debug\net9.0\SmartPole.Inventory.Domain.pdb
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\obj\Debug\net9.0\SmartPole.Inventory.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\obj\Debug\net9.0\SmartPole.Inventory.Domain.AssemblyInfoInputs.cache
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\obj\Debug\net9.0\SmartPole.Inventory.Domain.AssemblyInfo.cs
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\obj\Debug\net9.0\SmartPole.Inventory.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\obj\Debug\net9.0\SmartPole.Inventory.Domain.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\obj\Debug\net9.0\refint\SmartPole.Inventory.Domain.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\obj\Debug\net9.0\SmartPole.Inventory.Domain.pdb
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\obj\Debug\net9.0\ref\SmartPole.Inventory.Domain.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.Domain\obj\Debug\net9.0\SmartPole.Inventory.Domain.csproj.AssemblyReference.cache
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.Domain/bin/Debug/net9.0/SmartPole.Inventory.Domain.deps.json
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.Domain/bin/Debug/net9.0/SmartPole.Inventory.Domain.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.Domain/bin/Debug/net9.0/SmartPole.Inventory.Domain.pdb
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/SmartPole.Inventory.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/SmartPole.Inventory.Domain.AssemblyInfoInputs.cache
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/SmartPole.Inventory.Domain.AssemblyInfo.cs
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/SmartPole.Inventory.Domain.csproj.CoreCompileInputs.cache
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/SmartPole.Inventory.Domain.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/refint/SmartPole.Inventory.Domain.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/SmartPole.Inventory.Domain.pdb
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/ref/SmartPole.Inventory.Domain.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/SmartPole.Inventory.Domain.csproj.AssemblyReference.cache
+/app/src/SmartPole.Inventory.Domain/bin/Debug/net9.0/SmartPole.Inventory.Domain.deps.json
+/app/src/SmartPole.Inventory.Domain/bin/Debug/net9.0/SmartPole.Inventory.Domain.dll
+/app/src/SmartPole.Inventory.Domain/bin/Debug/net9.0/SmartPole.Inventory.Domain.pdb
+/app/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/SmartPole.Inventory.Domain.csproj.AssemblyReference.cache
+/app/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/SmartPole.Inventory.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/app/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/SmartPole.Inventory.Domain.AssemblyInfoInputs.cache
+/app/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/SmartPole.Inventory.Domain.AssemblyInfo.cs
+/app/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/SmartPole.Inventory.Domain.csproj.CoreCompileInputs.cache
+/app/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/SmartPole.Inventory.Domain.sourcelink.json
+/app/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/SmartPole.Inventory.Domain.dll
+/app/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/refint/SmartPole.Inventory.Domain.dll
+/app/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/SmartPole.Inventory.Domain.pdb
+/app/src/SmartPole.Inventory.Domain/obj/Debug/net9.0/ref/SmartPole.Inventory.Domain.dll
