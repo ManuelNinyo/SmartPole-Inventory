@@ -9,11 +9,11 @@
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
-    <PackageReference Include="SQLitePCLRaw.core" Version="2.1.10" />
-    <PackageReference Include="Mapsui" Version="4.1.8" />
-    <PackageReference Include="Mapsui.Tiling" Version="4.1.8" />
-    <PackageReference Include="BruTile" Version="5.0.6" />
-    <PackageReference Include="BruTile.MbTiles" Version="5.0.6" />
+    <PackageReference Include="SQLitePCLRaw.core" Version="3.0.2" />
+    <PackageReference Include="Mapsui" Version="5.0.2" />
+    <PackageReference Include="Mapsui.Tiling" Version="5.0.2" />
+    <PackageReference Include="BruTile" Version="6.0.0" />
+    <PackageReference Include="BruTile.MbTiles" Version="6.0.0" />
     <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.24.3" />
     <PackageReference Include="SixLabors.ImageSharp" Version="3.1.12" />
   </ItemGroup>
