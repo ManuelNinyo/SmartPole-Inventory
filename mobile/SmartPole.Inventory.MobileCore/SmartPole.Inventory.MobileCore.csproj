@@ -15,7 +15,7 @@
     <PackageReference Include="BruTile" Version="5.0.6" />
     <PackageReference Include="BruTile.MbTiles" Version="5.0.6" />
     <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.24.3" />
-    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.2" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.12" />
   </ItemGroup>
 
 </Project>
