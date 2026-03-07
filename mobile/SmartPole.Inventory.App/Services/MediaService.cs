@@ -10,14 +10,17 @@ public class MediaService : IMediaService
 {
     public async Task<string?> TakePhotoAsync()
     {
-        var photo = await MediaPicker.Default.CapturePhotoAsync();
-        if (photo != null)
+        if (MediaPicker.Default.IsCaptureSupported)
         {
-            var imagePath = Path.Combine(FileSystem.CacheDirectory, photo.FileName);
-            using var stream = await photo.OpenReadAsync();
-            using var newStream = File.OpenWrite(imagePath);
-            await stream.CopyToAsync(newStream);
-            return imagePath;
+            var photo = await MediaPicker.Default.CapturePhotoAsync();
+            if (photo != null)
+            {
+                var imagePath = Path.Combine(FileSystem.CacheDirectory, photo.FileName);
+                using var stream = await photo.OpenReadAsync();
+                using var newStream = File.OpenWrite(imagePath);
+                await stream.CopyToAsync(newStream);
+                return imagePath;
+            }
         }
         return null;
     }
