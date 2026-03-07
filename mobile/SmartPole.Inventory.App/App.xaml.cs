@@ -1,14 +1,34 @@
-﻿namespace SmartPole.Inventory.App;
+using SmartPole.Inventory.MobileCore.Services;
+
+namespace SmartPole.Inventory.App;
 
 public partial class App : Application
 {
-	public App()
+	private readonly IYoloDetectionService _yoloService;
+
+	public App(IYoloDetectionService yoloService)
 	{
 		InitializeComponent();
+		_yoloService = yoloService;
 	}
 
 	protected override Window CreateWindow(IActivationState? activationState)
 	{
 		return new Window(new AppShell());
+	}
+
+	protected override async void OnStart()
+	{
+		base.OnStart();
+
+		try
+		{
+			using var stream = await FileSystem.OpenAppPackageFileAsync("yolov8n.onnx");
+			await _yoloService.InitializeAsync(stream);
+		}
+		catch (Exception ex)
+		{
+			Console.WriteLine($"Error loading YOLO model: {ex.Message}");
+		}
 	}
 }

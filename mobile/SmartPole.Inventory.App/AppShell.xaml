@@ -16,4 +16,9 @@
         Title="Map"
         ContentTemplate="{DataTemplate views:MapPage}"
         Route="MapPage" />
+
+    <ShellContent
+        Title="Inspección"
+        ContentTemplate="{DataTemplate views:InventoryInspectionPage}"
+        Route="InventoryInspectionPage" />
 </Shell>

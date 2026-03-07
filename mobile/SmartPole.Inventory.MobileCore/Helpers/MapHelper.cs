@@ -48,7 +48,7 @@ public static class MapHelper
   {
     var features = points?.Select(p =>
     {
-      var feature = new PointFeature(SphericalMercator.FromLonLat(p.Longitude, p.Latitude));
+      var feature = new PointFeature(new MPoint(SphericalMercator.FromLonLat(p.Longitude, p.Latitude).x, SphericalMercator.FromLonLat(p.Longitude, p.Latitude).y));
       feature["name"] = p.Name;
       feature["description"] = p.Description;
       return feature;
@@ -71,7 +71,7 @@ public static class MapHelper
   {
     if (point == null) return new MemoryLayer { Name = layerName };
 
-    var feature = new PointFeature(SphericalMercator.FromLonLat(point.Longitude, point.Latitude));
+    var feature = new PointFeature(new MPoint(SphericalMercator.FromLonLat(point.Longitude, point.Latitude).x, SphericalMercator.FromLonLat(point.Longitude, point.Latitude).y));
     feature["name"] = point.Name;
 
     return new MemoryLayer

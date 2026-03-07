@@ -6,6 +6,7 @@ namespace SmartPole.Inventory.Infrastructure.Persistence;
 
 public class SmartPoleDbContext : DbContext, IApplicationDbContext {
   public DbSet<SmartPole.Inventory.Domain.Entities.SmartPole> SmartPoles => Set<SmartPole.Inventory.Domain.Entities.SmartPole>();
+  public DbSet<InventoryItem> InventoryItems => Set<InventoryItem>();
   public DbSet<Inspection> Inspections => Set<Inspection>();
   public DbSet<FraudFinding> FraudFindings => Set<FraudFinding>();
   public DbSet<TelcoOperator> TelcoOperators => Set<TelcoOperator>();

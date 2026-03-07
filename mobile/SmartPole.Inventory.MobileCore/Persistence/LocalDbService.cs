@@ -1,5 +1,6 @@
 using SQLite;
 using SmartPole.Inventory.MobileCore.Domain;
+using SmartPole.Inventory.MobileCore.Models;
 
 namespace SmartPole.Inventory.MobileCore.Persistence;
 
@@ -19,6 +20,7 @@ public class LocalDbService : ILocalDbService, IDisposable {
     await _database.CreateTableAsync<LocalPoste>();
     await _database.CreateTableAsync<LocalInspeccion>();
     await _database.CreateTableAsync<LocalFraude>();
+    await _database.CreateTableAsync<InventoryItemModel>();
   }
 
   public async Task<int> SavePosteAsync(LocalPoste pole) {
@@ -52,6 +54,18 @@ public class LocalDbService : ILocalDbService, IDisposable {
       return await _database!.UpdateAsync(fraud);
     else
       return await _database!.InsertAsync(fraud);
+  }
+
+  public async Task<int> SaveInventoryItemAsync(InventoryItemModel item) {
+    await InitAsync();
+    return await _database!.InsertOrReplaceAsync(item);
+  }
+
+  public async Task<List<InventoryItemModel>> GetPendingInventoryItemsAsync() {
+    await InitAsync();
+    return await _database!.Table<InventoryItemModel>()
+      .Where(i => !i.IsSynced)
+      .ToListAsync();
   }
 
   public void Dispose() {
