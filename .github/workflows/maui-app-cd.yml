@@ -1,0 +1,87 @@
+name: MAUI App CD (Release)
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build-and-publish:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 9.0.x
+        cache: true
+        cache-dependency-path: mobile/SmartPole.Inventory.Mobile.sln
+
+    - name: Restore Workloads
+      working-directory: mobile
+      run: dotnet workload restore SmartPole.Inventory.Mobile.sln
+
+    - name: Restore dependencies
+      working-directory: mobile
+      run: dotnet restore SmartPole.Inventory.Mobile.sln
+
+    - name: Build Android App (APK & AAB)
+      working-directory: mobile
+      run: |
+        # Build AAB (for Google Play)
+        dotnet publish SmartPole.Inventory.App/SmartPole.Inventory.App.csproj --configuration Release -f net9.0-android -p:AndroidPackageFormats=aab -p:AndroidKeyStore=false
+        # Build APK (for direct download/testing)
+        dotnet publish SmartPole.Inventory.App/SmartPole.Inventory.App.csproj --configuration Release -f net9.0-android -p:AndroidPackageFormats=apk -p:AndroidKeyStore=false
+
+    - name: Setup Keystore from Secrets
+      id: android_keystore
+      shell: bash
+      env:
+        KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+      run: |
+        if [ -n "$KEYSTORE_BASE64" ]; then
+          echo "$KEYSTORE_BASE64" | base64 -d > release.keystore
+          echo "has_keystore=true" >> $GITHUB_OUTPUT
+        else
+          echo "has_keystore=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Sign APK and AAB
+      if: steps.android_keystore.outputs.has_keystore == 'true'
+      shell: bash
+      env:
+        KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+        KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+        KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+      run: |
+        BUILD_DIR="mobile/SmartPole.Inventory.App/bin/Release/net9.0-android/publish"
+
+        # Find the generated APK and AAB
+        APK_FILE=$(find $BUILD_DIR -name "*.apk" | head -n 1)
+        AAB_FILE=$(find $BUILD_DIR -name "*.aab" | head -n 1)
+
+        # Build-tools path for apksigner (Windows path via bash)
+        BUILD_TOOLS_DIR=$(ls -d /c/Android/android-sdk/build-tools/* | sort -V | tail -n 1)
+        APKSIGNER="$BUILD_TOOLS_DIR/apksigner.bat"
+
+        # Sign APK
+        if [ -f "$APK_FILE" ]; then
+          "$APKSIGNER" sign --ks release.keystore --ks-pass "pass:$KEYSTORE_PASSWORD" --ks-key-alias "$KEY_ALIAS" --key-pass "pass:$KEY_PASSWORD" "$APK_FILE"
+          echo "APK Signed."
+        fi
+
+        # Sign AAB (AABs are signed with jarsigner)
+        if [ -f "$AAB_FILE" ]; then
+          jarsigner -keystore release.keystore -storepass "$KEYSTORE_PASSWORD" -keypass "$KEY_PASSWORD" "$AAB_FILE" "$KEY_ALIAS"
+          echo "AAB Signed."
+        fi
+
+    - name: Upload to Release Assets
+      uses: softprops/action-gh-release@v2
+      with:
+        files: |
+          mobile/SmartPole.Inventory.App/bin/Release/net9.0-android/publish/*.apk
+          mobile/SmartPole.Inventory.App/bin/Release/net9.0-android/publish/*.aab
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

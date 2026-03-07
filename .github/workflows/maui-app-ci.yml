@@ -3,8 +3,18 @@ name: MAUI App CI
 on:
   push:
     branches: [ "master", "main" ]
+    paths:
+      - 'mobile/**'
+      - '.github/workflows/maui-app-ci.yml'
   pull_request:
     branches: [ "master", "main" ]
+    paths:
+      - 'mobile/**'
+      - '.github/workflows/maui-app-ci.yml'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -20,25 +30,17 @@ jobs:
         cache: true
         cache-dependency-path: mobile/SmartPole.Inventory.Mobile.sln
 
-    - name: Cache MAUI Workload
-      id: cache-maui
-      uses: actions/cache@v4
-      with:
-        path: |
-          C:\Program Files\dotnet\sdk-manifests
-          C:\Program Files\dotnet\metadata
-          C:\Program Files\dotnet\packs
-          C:\Program Files\dotnet\library-packs
-          C:\Program Files\dotnet\template-packs
-        key: ${{ runner.os }}-maui-workload-9.0
-
-    - name: Install MAUI Workload
-      if: steps.cache-maui.outputs.cache-hit != 'true'
-      run: dotnet workload install maui --ignore-failed-sources
+    - name: Restore Workloads
+      working-directory: mobile
+      run: dotnet workload restore SmartPole.Inventory.Mobile.sln
 
     - name: Restore dependencies
       working-directory: mobile
       run: dotnet restore SmartPole.Inventory.Mobile.sln
+
+    - name: Check Formatting
+      working-directory: mobile
+      run: dotnet format SmartPole.Inventory.Mobile.sln --verify-no-changes --severity warn || true
 
     - name: Build Mobile Core
       working-directory: mobile

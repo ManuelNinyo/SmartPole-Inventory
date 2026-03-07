@@ -3,8 +3,18 @@ name: Backend CI
 on:
   push:
     branches: [ "master", "main" ]
+    paths:
+      - 'src/**'
+      - '.github/workflows/backend-ci.yml'
   pull_request:
     branches: [ "master", "main" ]
+    paths:
+      - 'src/**'
+      - '.github/workflows/backend-ci.yml'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -23,6 +33,10 @@ jobs:
     - name: Restore dependencies
       working-directory: src
       run: dotnet restore SmartPole.Inventory.sln
+
+    - name: Check Formatting
+      working-directory: src
+      run: dotnet format SmartPole.Inventory.sln --verify-no-changes --severity warn || true
 
     - name: Build
       working-directory: src
