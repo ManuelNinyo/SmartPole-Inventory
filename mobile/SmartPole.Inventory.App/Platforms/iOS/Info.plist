@@ -32,5 +32,7 @@
 	<string>SmartPole-Inventory needs your location to show where you are on the map and find nearby poles.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>SmartPole-Inventory needs your location to show where you are on the map and find nearby poles.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>SmartPole-Inventory needs access to the camera to take photos for inventory inspection.</string>
 </dict>
 </plist>
