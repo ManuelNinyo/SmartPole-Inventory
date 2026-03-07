@@ -12,7 +12,7 @@
         <Frame Grid.Row="1" CornerRadius="10" Padding="0" HasShadow="True">
             <Grid>
                 <Image Source="{Binding ImageSource}" Aspect="AspectFill" BackgroundColor="LightGray" />
-                <Label Text="Toma una foto para comenzar" IsVisible="{Binding ImageSource, Converter={x:Static String.IsNullOrEmpty}}"
+                <Label Text="Toma una foto para comenzar" IsVisible="{Binding HasNoImage}"
                        HorizontalOptions="Center" VerticalOptions="Center" TextColor="Gray" />
                 <ActivityIndicator IsRunning="{Binding IsProcessing}" IsVisible="{Binding IsProcessing}" HorizontalOptions="Center" VerticalOptions="Center" />
             </Grid>

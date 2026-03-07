@@ -31,7 +31,10 @@ public partial class InventoryInspectionViewModel : ObservableObject
     }
 
     [ObservableProperty]
+    [NotifyPropertyChangedFor(nameof(HasNoImage))]
     private string _imageSource = string.Empty;
+
+    public bool HasNoImage => string.IsNullOrEmpty(ImageSource);
 
     [ObservableProperty]
     private bool _isProcessing;
