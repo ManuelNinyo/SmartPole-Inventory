@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:SmartPole.Inventory.MobileCore.ViewModels;assembly=SmartPole.Inventory.MobileCore"
+             x:Class="SmartPole.Inventory.App.Views.InventoryInspectionPage"
+             Title="Inventario por Imagen">
+
+    <Grid RowDefinitions="Auto, *, Auto, Auto" Padding="15">
+
+        <Label Grid.Row="0" Text="Inspección de Inventario" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,0,0,15" />
+
+        <Frame Grid.Row="1" CornerRadius="10" Padding="0" HasShadow="True">
+            <Grid>
+                <Image Source="{Binding ImageSource}" Aspect="AspectFill" BackgroundColor="LightGray" />
+                <Label Text="Toma una foto para comenzar" IsVisible="{Binding ImageSource, Converter={x:Static String.IsNullOrEmpty}}"
+                       HorizontalOptions="Center" VerticalOptions="Center" TextColor="Gray" />
+                <ActivityIndicator IsRunning="{Binding IsProcessing}" IsVisible="{Binding IsProcessing}" HorizontalOptions="Center" VerticalOptions="Center" />
+            </Grid>
+        </Frame>
+
+        <CollectionView Grid.Row="2" ItemsSource="{Binding Detections}" Margin="0,15,0,15" HeightRequest="150">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame CornerRadius="5" Padding="10" Margin="0,5">
+                        <StackLayout Orientation="Horizontal" Spacing="10">
+                            <Label Text="{Binding Label}" FontAttributes="Bold" VerticalOptions="Center" />
+                            <Label Text="{Binding Confidence, StringFormat='({0:P0})'}" VerticalOptions="Center" TextColor="Gray" />
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+            <CollectionView.EmptyView>
+                <Label Text="No se han detectado elementos aún." HorizontalOptions="Center" Margin="10" />
+            </CollectionView.EmptyView>
+        </CollectionView>
+
+        <StackLayout Grid.Row="3" Orientation="Horizontal" Spacing="15" HorizontalOptions="Center">
+            <Button Text="Tomar Foto" Command="{Binding TakePhotoCommand}" WidthRequest="150" />
+            <Button Text="Guardar" Command="{Binding SaveInspectionCommand}" WidthRequest="150" />
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>

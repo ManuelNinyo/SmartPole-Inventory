@@ -1,169 +1,340 @@
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\appsettings.Development.json
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\appsettings.json
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\SmartPole.Inventory.WebAPI.staticwebassets.endpoints.json
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\SmartPole.Inventory.WebAPI.exe
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\SmartPole.Inventory.WebAPI.deps.json
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\SmartPole.Inventory.WebAPI.runtimeconfig.json
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\SmartPole.Inventory.WebAPI.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\SmartPole.Inventory.WebAPI.pdb
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\MediatR.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\MediatR.Contracts.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Extensions.Hosting.Abstractions.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.OpenApi.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Serilog.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Serilog.AspNetCore.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Serilog.Sinks.Console.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Serilog.Sinks.File.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\System.IO.Pipelines.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\System.Text.Encodings.Web.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\System.Text.Json.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Text.Encodings.Web.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\SmartPole.Inventory.Application.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\SmartPole.Inventory.Domain.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\SmartPole.Inventory.Infrastructure.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\SmartPole.Inventory.Infrastructure.pdb
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\SmartPole.Inventory.Application.pdb
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\SmartPole.Inventory.Domain.pdb
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\SmartPole.Inventory.WebAPI.csproj.AssemblyReference.cache
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\rpswa.dswa.cache.json
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\SmartPole.Inventory.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\SmartPole.Inventory.WebAPI.AssemblyInfoInputs.cache
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\SmartPole.Inventory.WebAPI.AssemblyInfo.cs
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\SmartPole.Inventory.WebAPI.csproj.CoreCompileInputs.cache
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\SmartPole.Inventory.WebAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\SmartPole.Inventory.WebAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\rjimswa.dswa.cache.json
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\scopedcss\bundle\SmartPole.Inventory.WebAPI.styles.css
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\staticwebassets.build.json
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\staticwebassets.build.json.cache
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\staticwebassets.development.json
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\SmartPol.25FB56C1.Up2Date
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\SmartPole.Inventory.WebAPI.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\refint\SmartPole.Inventory.WebAPI.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\SmartPole.Inventory.WebAPI.pdb
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\SmartPole.Inventory.WebAPI.genruntimeconfig.cache
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\obj\Debug\net9.0\ref\SmartPole.Inventory.WebAPI.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\NetTopologySuite.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Humanizer.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Build.Locator.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Mono.TextTemplating.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\NetTopologySuite.IO.PostGis.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Npgsql.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Npgsql.NetTopologySuite.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\System.CodeDom.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\System.Composition.AttributedModel.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\System.Composition.Convention.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\System.Composition.Hosting.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\System.Composition.Runtime.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\System.Composition.TypedParts.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Manuel Niño\source\repos\SmartPole-Inventory\src\SmartPole.Inventory.WebAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/appsettings.Development.json
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/appsettings.json
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.WebAPI.staticwebassets.endpoints.json
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.WebAPI.exe
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.WebAPI.deps.json
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.WebAPI.runtimeconfig.json
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.WebAPI.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.WebAPI.pdb
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/MediatR.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/MediatR.Contracts.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Configuration.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Binder.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Hosting.Abstractions.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.OpenApi.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.AspNetCore.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.Extensions.Hosting.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.Extensions.Logging.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.Formatting.Compact.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.Settings.Configuration.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.Sinks.Console.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.Sinks.Debug.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.Sinks.File.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Diagnostics.DiagnosticSource.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.IO.Pipelines.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Text.Encodings.Web.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Text.Json.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/runtimes/win/lib/net9.0/System.Text.Encodings.Web.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.Application.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.Domain.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.Infrastructure.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.Infrastructure.pdb
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.Application.pdb
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.Domain.pdb
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.csproj.AssemblyReference.cache
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/rpswa.dswa.cache.json
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.AssemblyInfoInputs.cache
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.AssemblyInfo.cs
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.csproj.CoreCompileInputs.cache
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/rjimswa.dswa.cache.json
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/scopedcss/bundle/SmartPole.Inventory.WebAPI.styles.css
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/staticwebassets.build.json
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/staticwebassets.build.json.cache
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/staticwebassets.development.json
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPol.25FB56C1.Up2Date
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/refint/SmartPole.Inventory.WebAPI.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.pdb
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.genruntimeconfig.cache
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/ref/SmartPole.Inventory.WebAPI.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/NetTopologySuite.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Humanizer.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Mono.TextTemplating.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/NetTopologySuite.IO.PostGis.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Npgsql.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Npgsql.NetTopologySuite.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.CodeDom.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Composition.Convention.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Composition.Hosting.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Composition.Runtime.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Composition.TypedParts.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/Manuel Niño/source/repos/SmartPole-Inventory/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/appsettings.Development.json
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/appsettings.json
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.WebAPI.staticwebassets.endpoints.json
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.WebAPI
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.WebAPI.deps.json
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.WebAPI.runtimeconfig.json
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.WebAPI.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.WebAPI.pdb
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Humanizer.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/MediatR.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/MediatR.Contracts.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Configuration.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Binder.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Hosting.Abstractions.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Mono.TextTemplating.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/NetTopologySuite.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/NetTopologySuite.IO.PostGis.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Npgsql.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Npgsql.NetTopologySuite.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.AspNetCore.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.Extensions.Hosting.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.Extensions.Logging.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.Formatting.Compact.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.Settings.Configuration.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.Sinks.Console.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.Sinks.Debug.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/Serilog.Sinks.File.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.CodeDom.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Composition.Convention.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Composition.Hosting.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Composition.Runtime.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Diagnostics.DiagnosticSource.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.IO.Pipelines.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Text.Encodings.Web.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/System.Text.Json.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/runtimes/win/lib/net9.0/System.Text.Encodings.Web.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.Application.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.Domain.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.Infrastructure.dll
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.Infrastructure.pdb
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.Application.pdb
+/app/src/SmartPole.Inventory.WebAPI/bin/Debug/net9.0/SmartPole.Inventory.Domain.pdb
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.csproj.AssemblyReference.cache
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/rpswa.dswa.cache.json
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.AssemblyInfoInputs.cache
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.AssemblyInfo.cs
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.csproj.CoreCompileInputs.cache
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.sourcelink.json
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/scopedcss/bundle/SmartPole.Inventory.WebAPI.styles.css
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/staticwebassets.build.json
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/staticwebassets.build.json.cache
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/staticwebassets.development.json
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/swae.build.ex.cache
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPol.25FB56C1.Up2Date
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.dll
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/refint/SmartPole.Inventory.WebAPI.dll
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.pdb
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/SmartPole.Inventory.WebAPI.genruntimeconfig.cache
+/app/src/SmartPole.Inventory.WebAPI/obj/Debug/net9.0/ref/SmartPole.Inventory.WebAPI.dll

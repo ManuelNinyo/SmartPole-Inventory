@@ -22,4 +22,14 @@ public class SyncController : ControllerBase {
     var result = await _mediator.Send(command);
     return Ok(result);
   }
+
+  [Authorize]
+  [HttpPost("inventory")]
+  public async Task<IActionResult> SyncInventory([FromBody] List<SyncInventoryItemDto> items) {
+    if (items == null || !items.Any()) return BadRequest("No items provided");
+
+    var command = new SyncInventoryCommand { Items = items };
+    var result = await _mediator.Send(command);
+    return Ok(result);
+  }
 }

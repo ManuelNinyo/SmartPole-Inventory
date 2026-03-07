@@ -11,6 +11,8 @@ public class SmartPole : AuditableEntity<Guid>, IAggregateRoot {
   // Navigation properties
   private readonly List<Inspection> _inspections = new();
   public IReadOnlyCollection<Inspection> Inspections => _inspections.AsReadOnly();
+  private readonly List<InventoryItem> _inventoryItems = new();
+  public IReadOnlyCollection<InventoryItem> InventoryItems => _inventoryItems.AsReadOnly();
 
   public SmartPole(Guid id, Point location, string type, string status) : base(id) {
     Location = location;
@@ -68,5 +70,24 @@ public class User : AuditableEntity<Guid>, IAggregateRoot {
   public User(Guid id, string name, string role) : base(id) {
     Name = name;
     Role = role;
+  }
+}
+
+public class InventoryItem : AuditableEntity<Guid> {
+  public Guid SmartPoleId { get; private set; }
+  public string ItemType { get; private set; }
+  public float Confidence { get; private set; }
+  public DateTime DetectedAt { get; private set; }
+  public string? ImageUrl { get; private set; }
+
+  // Navigation property
+  public SmartPole? SmartPole { get; private set; }
+
+  public InventoryItem(Guid id, Guid smartPoleId, string itemType, float confidence, DateTime detectedAt, string? imageUrl = null) : base(id) {
+    SmartPoleId = smartPoleId;
+    ItemType = itemType;
+    Confidence = confidence;
+    DetectedAt = detectedAt;
+    ImageUrl = imageUrl;
   }
 }
