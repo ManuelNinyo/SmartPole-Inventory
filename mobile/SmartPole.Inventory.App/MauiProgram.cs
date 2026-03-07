@@ -35,6 +35,7 @@ public static class MauiProgram
 
 		builder.Services.AddSingleton<IYoloDetectionService, YoloDetectionService>();
 		builder.Services.AddSingleton<IMediaService, MediaService>();
+		builder.Services.AddSingleton<IDialogService, DialogService>();
 
         builder.Services.AddSingleton(new HttpClient { BaseAddress = new System.Uri("http://10.0.2.2:5000/") });
         builder.Services.AddTransient<SyncService>();

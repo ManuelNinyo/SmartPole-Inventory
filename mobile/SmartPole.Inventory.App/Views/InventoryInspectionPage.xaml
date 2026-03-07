@@ -14,7 +14,12 @@
                 <Image Source="{Binding ImageSource}" Aspect="AspectFill" BackgroundColor="LightGray" />
                 <Label Text="Toma una foto para comenzar" IsVisible="{Binding HasNoImage}"
                        HorizontalOptions="Center" VerticalOptions="Center" TextColor="Gray" />
-                <ActivityIndicator IsRunning="{Binding IsProcessing}" IsVisible="{Binding IsProcessing}" HorizontalOptions="Center" VerticalOptions="Center" />
+
+                <BoxView Color="#80000000" IsVisible="{Binding IsProcessing}" />
+                <StackLayout IsVisible="{Binding IsProcessing}" HorizontalOptions="Center" VerticalOptions="Center" Spacing="10">
+                    <ActivityIndicator IsRunning="{Binding IsProcessing}" Color="White" />
+                    <Label Text="Analizando el inventario..." TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" />
+                </StackLayout>
             </Grid>
         </Frame>
 
