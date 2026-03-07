@@ -30,6 +30,17 @@ jobs:
         cache: true
         cache-dependency-path: mobile/SmartPole.Inventory.Mobile.sln
 
+    - name: Cache MAUI Android Build Dependencies
+      uses: actions/cache@v4
+      with:
+        path: |
+          ~\AppData\Local\Xamarin\zips
+          ~\.android\build-cache
+          ~\.android\cache
+        key: ${{ runner.os }}-maui-android-${{ hashFiles('**/*.csproj') }}
+        restore-keys: |
+          ${{ runner.os }}-maui-android-
+
     - name: Restore Workloads
       working-directory: mobile
       run: dotnet workload restore SmartPole.Inventory.Mobile.sln
