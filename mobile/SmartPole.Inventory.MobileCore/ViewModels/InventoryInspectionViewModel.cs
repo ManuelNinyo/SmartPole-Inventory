@@ -16,17 +16,24 @@ public interface IMediaService
     Task<string?> TakePhotoAsync();
 }
 
+public interface IDialogService
+{
+    Task ShowErrorAsync(string title, string message, string buttonText);
+}
+
 public partial class InventoryInspectionViewModel : ObservableObject
 {
     private readonly IYoloDetectionService _yoloService;
     private readonly IMediaService _mediaService;
     private readonly ILocalDbService _dbService;
+    private readonly IDialogService _dialogService;
 
-    public InventoryInspectionViewModel(IYoloDetectionService yoloService, IMediaService mediaService, ILocalDbService dbService)
+    public InventoryInspectionViewModel(IYoloDetectionService yoloService, IMediaService mediaService, ILocalDbService dbService, IDialogService dialogService)
     {
         _yoloService = yoloService;
         _mediaService = mediaService;
         _dbService = dbService;
+        _dialogService = dialogService;
         Detections = new ObservableCollection<YoloDetection>();
     }
 
@@ -77,6 +84,7 @@ public partial class InventoryInspectionViewModel : ObservableObject
         catch(System.Exception ex)
         {
             System.Console.WriteLine($"Error processing image: {ex.Message}");
+            await _dialogService.ShowErrorAsync("Error", $"No se pudo analizar el inventario: {ex.Message}", "Aceptar");
         }
         finally
         {

@@ -29,6 +29,13 @@ public partial class App : Application
 		catch (Exception ex)
 		{
 			Console.WriteLine($"Error loading YOLO model: {ex.Message}");
+			if (Current?.MainPage != null)
+			{
+				Current.MainPage.Dispatcher.DispatchAsync(async () =>
+				{
+					await Current.MainPage.DisplayAlert("Error", $"No se pudo cargar el modelo YOLO. Las detecciones no funcionarán. {ex.Message}", "Aceptar");
+				});
+			}
 		}
 	}
 }
